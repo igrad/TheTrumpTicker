@@ -1,0 +1,88 @@
+<!--
+Hey nerd. If you're interested in helping improve this page, check out the Github link in the footer. I'd be happy to have your help! I'm not a web developer - this whole site is cobbled together with ChatGPT snippets and Elmer's glue, so a professional touch could go a long way.
+If you have any ideas to improve the site overall, but don't directly want to work on it, that's cool too. Just leave a note on the Issues section to recommend an approvement, and if I like it, I'll put it on the docket.
+Have a great day :)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Trump Ticker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="timer-container">
+        <div class="timer-wrapper">
+            <div id="timer" class="timer"></div>
+                <div class="subtext subtext-dynamic">until Trump <span>is deposed</span></div>
+            <div class="subtext">on January 20, 2029</div>
+        </div>
+    </div>
+
+    <div class="charity-banner">
+        <p>Charities of the Month</p>
+        <div class="charity-container">
+            <div id="charity-wrapper-1" class="charity-wrapper">
+                <div id="charity-image-1" onclick="location.href='https://www.renaissanceyouth.org/'" class="charity-btn">
+                    <img src="Renaissance-youth-center.png">
+                </div>
+                <div id="charity-blurb-wrapper-1" class="charity-blurb">
+                    The Renaissance Youth Center, based in Bronx, New York, has created a safe haven for the community's youth to develop life-long academic and social skills. They offer music classes, afterschool programming, tutoring, and civic engagement whie instilling the importance of self and community growth.
+                </div>
+            </div>
+            <div id="charity-wrapper-2" class="charity-wrapper">
+                <div onclick="location.href='https://www.826la.org/'" class="charity-btn">
+                    <img src="826LA.jpg">
+                </div>
+                <div class="charity-blurb">
+                    826LA is a Los Angeles-based nonprofit dedicated to supporting students aged 6-18 with their creative and expository writing skills and helping teachers inspire their students to write with programs structured around one-on-one attention.
+                </div>
+            </div>
+            <div id="charity-wrapper-3" class="charity-wrapper">
+                <div onclick="location.href='https://www.calfund.org/'" class="charity-btn">
+                    <img src="calfund.png">
+                </div>
+                <div class="charity-blurb">
+                    The California Community Foundation leads positive systemic change that strengthens Los Angeles' communities. Currently, they primarily support recovery efforts following the Palisades wildfires that have ravaged the region.
+                </div>
+            </div>
+            <div id="charity-wrapper-4" class="charity-wrapper">
+                <div onclick="location.href='https://nwlc.org/'" class="charity-btn">
+                    <img src="nwlc.png">
+                </div>
+                <div class="charity-blurb">
+                    The National Women's Law Center, founded in 1972 in Washington, D.C., advocates for women's rights and LGBTQ rights through litigation, policy, and culture change initiatives.
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="events-container">
+        <h2 style="font-style: italic">"I have nothing to do with Project 2025." - Donald J Trump, September 10, 2024</h2>
+        <br>
+        <table class="offenses-table">
+            <tbody class="offenses">
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>
+            Please consider <a href="https://ko-fi.com/iangradert" target="_blank">donating on Ko-Fi</a>
+            <br>
+            All donations (after server upkeep fees) are donated to the charities of the week
+        </p>
+        <p>
+            For errata, or to suggest charities to feature, <a href="mailto:ian.gradert1@gmail.com">email me</a>
+        </p>
+        <p>
+            Created by Ian Gradert | <a href="https://github.com/igrad/countdown">Contribute to the GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
