@@ -248,11 +248,31 @@ $(document).ready(function() {
             text: "Placed tariffs of 10% on all Chinese goods, 25% on all goods from Canada and Mexico, with only a 10% tariff on Canadian oil exports.",
             link: "https://www.whitehouse.gov/presidential-actions/2025/02/imposing-duties-to-address-the-flow-of-illicit-drugs-across-our-national-border/"
         },
-        // {
-        //     date: "January 29th, 2025",
-        //     text: "",
-        //     link: ""
-        // },
+        {
+            date: "February 4th, 2025",
+            text: "Withdrew the United States from the UN Human Rights Council (UNHRC) claiming they propagate anti-Semitism. Ordered a comprehensive review of the US's participation the UN Educational, Scientific, and Cultural Organization (UNESCO), and the UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA). The US will no longer fund UNHRC or UNRWA, and will not honor arrears for 2025.",
+            link: ""
+        },
+        {
+            date: "February 4th, 2025",
+            text: "",
+            link: ""
+        },
+        {
+            date: "February 4th, 2025",
+            text: "",
+            link: ""
+        },
+        {
+            date: "February 4th, 2025",
+            text: "",
+            link: ""
+        },
+        {
+            date: "February 4th, 2025",
+            text: "",
+            link: ""
+        },
     ]
 
 
