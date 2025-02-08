@@ -1,5 +1,6 @@
 let numberOfCharitiesThisMonth = 4;
 let charityCycleTime_ms = 10000;
+let subtextCycleTime_ms = 10000;
 
 $(document).ready(function() {
     function updateCountdown() {
@@ -78,7 +79,10 @@ $(document).ready(function() {
         "heads out",
         "is evicted",
         "is expelled",
-        "is escorted out"
+        "is escorted out",
+        "says buh-bye",
+        "is dethroned",
+        "is kicked out"
     ];
 
     // Select a random subtext
@@ -103,7 +107,7 @@ $(document).ready(function() {
 
         lastSubtextIndex = randomSubtextIndex;
     }
-    setInterval(setSubtext, 10000)
+    setInterval(setSubtext, subtextCycleTime_ms)
 
     setInterval(updateCountdown, 1000);
     updateCountdown();
@@ -115,7 +119,6 @@ $(document).ready(function() {
                 <td>${offense.text} (<a href="${offense.link}" target="_blank" rel="noopener noreferrer">link</a>)</td>
                 </tr>`
     }
-
 
     const offenses = [
         {
@@ -249,30 +252,45 @@ $(document).ready(function() {
             link: "https://www.whitehouse.gov/presidential-actions/2025/02/imposing-duties-to-address-the-flow-of-illicit-drugs-across-our-national-border/"
         },
         {
-            date: "February 4th, 2025",
-            text: "Withdrew the United States from the UN Human Rights Council (UNHRC) claiming they propagate anti-Semitism. Ordered a comprehensive review of the US's participation the UN Educational, Scientific, and Cultural Organization (UNESCO), and the UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA). The US will no longer fund UNHRC or UNRWA, and will not honor arrears for 2025.",
-            link: ""
+            date: "February 3rd, 2025",
+            text: "Withdrew the United States from the UN Human Rights Council (UNHRC) claiming they propagate antisemitism. Ordered a comprehensive review of the US's participation in the <i>UN Educational, Scientific, and Cultural Organization (UNESCO)</i> and the <i>UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)</i>. The US will no longer fund UNHRC or UNRWA, and will not honor arrears for 2025.",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/withdrawing-the-united-states-from-and-ending-funding-to-certain-united-nations-organizations-and-reviewing-united-states-support-to-all-international-organizations/"
+        },
+        {
+            date: "February 5th, 2025",
+            text: "Laid plans to cut direct funding and grants to educational institutions (under Title IX of the Education Amendments Act of 1972) that permit males to participate in female sports. Also directed the US Ambassador to the UN and the Secretary of State to directly promote changes within the UN and the International Olympics Committee (IOC) to enact rules prohibiting male participation in female divisions and leagues.",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/keeping-men-out-of-womens-sports/"
+        },
+        {
+            date: "February 6th, 2025",
+            text: "Directed the heads of executive departments and agencies to review all funding that agencies provide to NGOs specifically to identify NGOs \"that actively undermine the security, prosperity, and safety of the American people.\"",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/memorandum-for-the-heads-of-executive-departments-and-agencies/"
+        },
+        {
+            date: "February 6th, 2025",
+            text: "Created the Task Force to Eradicate Anti-Christian Bias within the Department of Justice.",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/eradicating-anti-christian-bias/"
         },
         {
             date: "February 4th, 2025",
-            text: "",
-            link: ""
+            text: "Imposed sanctions on the International Criminal Court (ICC), of which the United States is not a member.",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/imposing-sanctions-on-the-international-criminal-court/"
         },
         {
             date: "February 4th, 2025",
-            text: "",
-            link: ""
+            text: "Ordered a comprehensive review of all current or pending firearms-related legislation that may impede upon the 2nd Amendment.",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/protecting-second-amendment-rights/"
         },
         {
-            date: "February 4th, 2025",
-            text: "",
-            link: ""
+            date: "February 7th, 2025",
+            text: "Established the White House Faith Office under the Domestic Policy Council, which includes appointing a \"Faith Liaison\" in many federal agencies",
+            link: "https://www.whitehouse.gov/presidential-actions/2025/02/establishment-of-the-white-house-faith-office/"
         },
-        {
-            date: "February 4th, 2025",
-            text: "",
-            link: ""
-        },
+        // {
+        //     date: "February 7th, 2025",
+        //     text: "",
+        //     link: ""
+        // },
     ]
 
 
