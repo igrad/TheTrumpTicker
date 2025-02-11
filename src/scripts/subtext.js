@@ -1,4 +1,5 @@
-let subtextCycleTime_ms = 5000;
+let subtextCycleTime_ms = 4000;
+let subtextFadeTime_ms = 500;
 
 // Check that these fit into the max-width css constraint
 const subtextOptions = [
@@ -60,11 +61,11 @@ function setSubtext() {
     let randomSubtext = subtextOptions[randomSubtextIndex];
     $(".subtext-dynamic span").animate({
             opacity: 0
-        }, 800, function () {
+        }, subtextFadeTime_ms, function () {
             $(this).text(randomSubtext);
             $(this).animate({
                     opacity: 1
-                }, 800)
+                }, subtextFadeTime_ms)
         }
     )
 

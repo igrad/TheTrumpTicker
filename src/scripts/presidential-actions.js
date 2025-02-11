@@ -170,21 +170,21 @@ const offenses = [
         text: "Declared February 9th as \"Gulf of America Day\".",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/"
     },
-    // {
-    //     date: "February th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "February th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "February th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "February 10th, 2025",
+        text: "Ended the use of paper straws in federal buildings and offices, and drafts penalties for states that still ban or penalize plastic straw purchases.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/ending-procurement-and-forced-use-of-paper-straws/"
+    },
+    {
+        date: "February 10th, 2025",
+        text: "Paused the Foreign Corrupt Practices Act (FCPA), which prohibits bribery and other corrupt forms of payment to foreign officials.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/pausing-foreign-corrupt-practices-act-enforcement-to-further-american-economic-and-national-security/"
+    },
+    {
+        date: "February 10th, 2025",
+        text: "Restored Section 232 tarriffs, enacting a 25% steel and aluminum import tariff with no exceptions, claiming it to be a matter of national security. Previously, a number of the United States' neighbors and allies were exempt from this steel tarriff.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/adjusting-imports-of-steel-into-the-united-states/"
+    },
     // {
     //     date: "February th, 2025",
     //     text: "",

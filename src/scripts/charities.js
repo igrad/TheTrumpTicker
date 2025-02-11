@@ -1,6 +1,6 @@
 // Rotate charities of the month every 15 seconds
 let currentCharityIndex = 1;
-let charityCycleTime_ms = 10000;
+let charityCycleTime_ms = 8000;
 
 function showNextCharity() {
     let currentCharity = $("#charity-wrapper-" + currentCharityIndex);
