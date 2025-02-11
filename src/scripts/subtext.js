@@ -1,4 +1,4 @@
-let subtextCycleTime_ms = 10000;
+let subtextCycleTime_ms = 5000;
 
 // Check that these fit into the max-width css constraint
 const subtextOptions = [
@@ -34,7 +34,6 @@ const subtextOptions = [
     "takes leave",
     "says goodbye",
     "steps down",
-    "leaves",
     "bows out",
     "backs down",
     "dips",

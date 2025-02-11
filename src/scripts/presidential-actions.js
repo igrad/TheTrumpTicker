@@ -67,7 +67,7 @@ const offenses = [
     },
     {
         date: "January 20th, 2025",
-        text: "Reinstated the death penalty",
+        text: "Reinstated the death penalty.",
         link: "https://www.federalregister.gov/documents/2025/01/30/2025-02012/restoring-the-death-penalty-and-protecting-public-safety"
     },
     {
@@ -162,11 +162,36 @@ const offenses = [
     },
     {
         date: "February 7th, 2025",
-        text: "Established the White House Faith Office under the Domestic Policy Council, which includes appointing a \"Faith Liaison\" in many federal agencies",
+        text: "Established the White House Faith Office under the Domestic Policy Council, which includes appointing a \"Faith Liaison\" in many federal agencies.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/establishment-of-the-white-house-faith-office/"
     },
+    {
+        date: "February 9th, 2025",
+        text: "Declared February 9th as \"Gulf of America Day\".",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/"
+    },
     // {
-    //     date: "February 7th, 2025",
+    //     date: "February th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "February th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "February th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "February th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "February th, 2025",
     //     text: "",
     //     link: ""
     // },
