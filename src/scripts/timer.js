@@ -31,3 +31,6 @@ function updateCountdown() {
         <span>${seconds} Seconds</span>`
     );
 }
+
+setInterval(updateCountdown, 1000);
+updateCountdown();

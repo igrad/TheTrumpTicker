@@ -2,9 +2,6 @@ let numberOfCharitiesThisMonth = 4;
 
 
 $(document).ready(function() {
-    setInterval(updateCountdown, 1000);
-    updateCountdown();
-
     addAllOffensesToList()
 
     // Pause updating the charity if the user has scrolled far enough down the page

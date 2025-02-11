@@ -2,6 +2,7 @@ let subtextCycleTime_ms = 5000;
 
 // Check that these fit into the max-width css constraint
 const subtextOptions = [
+    "is deposed",
     "takes a hike",
     "hits the road",
     "gets the boot",

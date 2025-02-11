@@ -211,3 +211,42 @@ footer a:hover {
         margin: 0px;
     }
 }
+
+
+/* Brief-only */
+@media (max-width: 400px) {
+    .timer {
+        font-size: 2rem;
+    }
+
+    .subtext {
+        font-size: 0.9rem;
+    }
+
+    .subtext-dynamic {
+        width: 185px;
+    }
+}
+
+.credits {
+    position: absolute;
+    display: flex;
+    bottom: 0vh;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    margin-bottom: 1vh;
+}
+
+.logo {
+    min-width: 36px;
+    min-height: 36px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.title {
+    align-content: end;
+    cursor: pointer;
+}
