@@ -185,6 +185,46 @@ const offenses = [
         text: "Restored Section 232 tarriffs, enacting a 25% steel and aluminum import tariff with no exceptions, claiming it to be a matter of national security. Previously, a number of the United States' neighbors and allies were exempt from this steel tarriff.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/adjusting-imports-of-steel-into-the-united-states/"
     },
+    {
+        date: "February 11th, 2025",
+        text: "Further outlined directives for federal executive agencies to enact reductions in force, specifically naming DEI teams and personnel as high-priority targets.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/implementing-the-presidents-department-of-government-efficiency-workforce-optimization-initiative/"
+    },
+    {
+        date: "February 11th, 2025",
+        text: "Established the President's Intelligence Advisory Board (PIAB) to further fuel Trump's \"America first\" initiative.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/president-trump-announces-the-presidents-intelligence-advisory-board/"
+    },
+    {
+        date: "February 11th, 2025",
+        text: "Increased the existing aluminum tariff from 10% to 25%, and removed several countries from the list of exemptions.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/adjusting-imports-of-aluminum-into-the-united-states/"
+    },
+    {
+        date: "February 12th, 2025",
+        text: "Directed the Secretaries of State to further align their hiring and retention policies with the \"America first\" initiative, targetting the release of employees who do not emphatically promote the President's message and values.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/one-voice-for-americas-foreign-relations/"
+    },
+    {
+        date: "February 13th, 2025",
+        text: "Signed in Robert F Kennedy Jr. - a notorious science denier and advocate of alternative medicines - as Secretary of the Department of Health and Human Services (HHS).",
+        link: "https://www.whitehouse.gov/remarks/2025/02/remarks-by-president-trump-and-secretary-of-the-department-of-health-and-human-services-robert-f-kennedy-jr-during-swearing-in-ceremony/"
+    },
+    {
+        date: "February 13th, 2025",
+        text: "Established the President's Make America Healthy Again Commission, chaired by RFK Jr. Among other points in its mission statement, the commissions aims to crack down on many drugs, including anti-depressants, weight loss supplements, and antipsychotics. It also sets out to scrutinize existing educational programs around physical and mental health.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/establishing-the-presidents-make-america-healthy-again-commission/"
+    },
+    {
+        date: "February 14th, 2025",
+        text: "Established the National Energy Dominance Council. In summary, it will work to reduce reliance on renewable energy sources, reduce or eliminate directives and laws that inhibit the throughput of coal and oil energy productions, and cause further damage to the already-critical condition of global climate conditions.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/establishing-the-national-energy-dominance-council/"
+    },
+    {
+        date: "February 15th, 2025",
+        text: "Reduces or eliminates federal funding for any educational institution that requires its students or faculty to receive the COVID-19 vaccine.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/keeping-education-accessible-and-ending-covid-19-vaccine-mandates-in-schools/"
+    },
     // {
     //     date: "February th, 2025",
     //     text: "",
