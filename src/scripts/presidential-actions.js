@@ -182,7 +182,7 @@ const offenses = [
     },
     {
         date: "February 10th, 2025",
-        text: "Restored Section 232 tarriffs, enacting a 25% steel and aluminum import tariff with no exceptions, claiming it to be a matter of national security. Previously, a number of the United States' neighbors and allies were exempt from this steel tarriff.",
+        text: "Restored Section 232 tariffs, enacting a 25% steel and aluminum import tariff with no exceptions, claiming it to be a matter of national security. Previously, a number of the United States' neighbors and allies were exempt from this steel tariff.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/adjusting-imports-of-steel-into-the-united-states/"
     },
     {
