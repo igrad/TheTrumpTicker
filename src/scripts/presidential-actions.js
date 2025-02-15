@@ -222,7 +222,7 @@ const offenses = [
     },
     {
         date: "February 15th, 2025",
-        text: "Reduces or eliminates federal funding for any educational institution that requires its students or faculty to receive the COVID-19 vaccine.",
+        text: "Issued orders to reduce or eliminate federal funding for any educational institution that requires its students to receive the COVID-19 vaccine.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/keeping-education-accessible-and-ending-covid-19-vaccine-mandates-in-schools/"
     },
     // {
@@ -247,7 +247,7 @@ function addToListOfOffenses(offense) {
 function addAllOffensesToList()
 {
     let listHTML = ""
-    for (let index = 0; index < offenses.length; index++) {
+    for (let index = offenses.length - 1; index > 0; index--) {
         listHTML += addToListOfOffenses(offenses[index])
     }
 
