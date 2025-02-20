@@ -225,6 +225,21 @@ const offenses = [
         text: "Issued orders to reduce or eliminate federal funding for any educational institution that requires its students to receive the COVID-19 vaccine.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/keeping-education-accessible-and-ending-covid-19-vaccine-mandates-in-schools/"
     },
+    {
+        date: "February 18th, 2025",
+        text: "Declared that all Independent Regulatory Agencies (IRAs, such as the Federal Reserve, the Securities and Exchange Commission (SEC), and the Federal Trade Commission (FTC)) shall establish a White House Liaison within their organizations, and that all such agencies' are beholden to the President's or Attorney General's interpretation of the law for the executive branch.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/ensuring-accountability-for-all-agencies/"
+    },
+    {
+        date: "February 19th, 2025",
+        text: "Directed agency heads to coordinate with their DOGE Team Leads and the Director of OMB to identify any existing policies that may contradict the president's \"America First\" message. For example, it targets \"regulations that impose significant costs upon private parties that are not outweighed by public benefits\", and \"regulations that harm the national interest by [...] impeding technological innovation, infrastructure development. inflation reduction, research and development, economic development, energy production, land use, and foreign policy objectives\".",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/ensuring-lawful-governance-and-implementing-the-presidents-department-of-government-efficiency-deregulatory-initiative/"
+    },
+    {
+        date: "February 19th, 2025",
+        text: "Effectively neutered several federal agencies, including the Inter-American Foundation (IAF) and United States Institute of Peace, among others.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/commencing-the-reduction-of-the-federal-bureaucracy/"
+    },
     // {
     //     date: "February th, 2025",
     //     text: "",
