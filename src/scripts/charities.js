@@ -1,12 +1,27 @@
-// Rotate charities of the month every 15 seconds
-let currentCharityIndex = 1;
+let numberOfCharitiesThisMonth = 4;
+let currentCharityIndex = 0;
 let charityCycleTime_ms = 8000;
 
-function showNextCharity() {
+function CheckScroll() {
+    let scrollTop = document.documentElement.scrollTop;
+    let scrollBottom = scrollTop + $(window).height();
+    let topOfCharityBanner = $(".charity-banner").offset().top;
+    let bottomOfCharityBanner = topOfCharityBanner + $(".charity-banner").height();
+
+    if (scrollTop > bottomOfCharityBanner) {
+        charityTimer.Pause();
+    }
+    else if (scrollBottom - 1 < topOfCharityBanner) {
+        charityTimer.Pause();
+    }
+    else {
+        charityTimer.Start();
+    }
+}
+
+function ShowNextCharity() {
     let currentCharity = $("#charity-wrapper-" + currentCharityIndex);
-
     let nextCharityIndex = (currentCharityIndex % numberOfCharitiesThisMonth) + 1;
-
     let nextCharity = $("#charity-wrapper-" + nextCharityIndex);
 
     currentCharity.animate({
@@ -34,36 +49,4 @@ function showNextCharity() {
     currentCharityIndex = nextCharityIndex;
 }
 
-let timerId;
-let startTime = 0;
-let started = false;
-let running = true;
-let timeRemaining = charityCycleTime_ms;
-
-function startTimer() {
-    startTime = Date.now();
-    timeRemaining = charityCycleTime_ms;
-    timerId = setTimeout(function() {
-        showNextCharity();
-        startTimer();
-    }, timeRemaining);
-}
-
-function pauseTimer() {
-    if (running) {
-        running = false;
-        clearTimeout(timerId);
-        timeRemaining -= Date.now() - startTime;
-    }
-}
-
-function resumeTimer() {
-    if (!running) {
-        running = true;
-        startTime = Date.now();
-        timerId = setTimeout(function() {
-            startTimer();
-        }, timeRemaining);
-    }
-}
-
+let charityTimer = new Timer(charityCycleTime_ms, false, false, ShowNextCharity);

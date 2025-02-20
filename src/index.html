@@ -5,98 +5,108 @@ Have a great day :)
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="The Trump Ticker">
-    <meta property="og:description" content="A countdown until January 20th, 2029">
-    <meta property="og:image" content="https://thetrumpticker.com/images/logo.svg">
-    <meta property="og:url" content="https://thetrumpticker.com">
-    <title>The Trump Ticker</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script defer src="scripts/timer.js"></script>
-    <script defer src="scripts/subtext.js"></script>
-    <script defer src="scripts/presidential-actions.js"></script>
-    <script defer src="scripts/charities.js"></script>
-    <script defer src="scripts/script.js"></script>
-</head>
-<body>
-    <div class="timer-container">
-        <div class="timer-wrapper">
-            <div id="timer" class="timer"></div>
-            <div class="subtext subtext-dynamic">until Trump <span>is deposed</span></div>
-            <div class="subtext">on January 20, 2029</div>
-        </div>
-    </div>
-
-    <div class="charity-banner">
-        <p>Charities of the Month</p>
-        <div class="charity-container">
-            <div id="charity-wrapper-1" class="charity-wrapper">
-                <div id="charity-image-1" onclick="location.href='https://www.renaissanceyouth.org/'" class="charity-btn">
-                    <img src="images/Renaissance-youth-center.png">
-                </div>
-                <div id="charity-blurb-wrapper-1" class="charity-blurb">
-                    The Renaissance Youth Center, based in Bronx, New York, has created a safe haven for the community's youth to develop life-long academic and social skills. They offer music classes, afterschool programming, tutoring, and civic engagement while instilling the importance of self and community growth.
-                </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="The Trump Ticker">
+        <meta property="og:description" content="A countdown until January 20th, 2029">
+        <meta property="og:image" content="https://thetrumpticker.com/images/logo.svg">
+        <meta property="og:url" content="https://thetrumpticker.com">
+        <title>The Trump Ticker</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/dankmode.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script defer src="scripts/timer.js"></script>
+        <script defer src="scripts/ticker.js"></script>
+        <script defer src="scripts/subtext.js"></script>
+        <script defer src="scripts/presidential-actions.js"></script>
+        <script defer src="scripts/charities.js"></script>
+        <script defer src="scripts/script.js"></script>
+        <script defer src="scripts/dankmode.js"></script>
+    </head>
+    <body>
+        <div class="timer-container">
+            <div class="timer-wrapper">
+                <div id="timer" class="timer"></div>
+                <div class="subtext subtext-dynamic">until Trump <span>is deposed</span></div>
+                <div class="subtext">on January 20, 2029</div>
             </div>
-            <div id="charity-wrapper-2" class="charity-wrapper">
-                <div onclick="location.href='https://www.826la.org/'" class="charity-btn">
-                    <img src="images/826LA.jpg">
-                </div>
-                <div class="charity-blurb">
-                    826LA is a Los Angeles-based nonprofit dedicated to supporting students aged 6-18. They focus on students' creative and expository writing skills and help teachers inspire their students to write with programs structured around one-on-one attention.
-                </div>
-            </div>
-            <div id="charity-wrapper-3" class="charity-wrapper">
-                <div onclick="location.href='https://www.calfund.org/'" class="charity-btn">
-                    <img src="images/calfund.png">
-                </div>
-                <div class="charity-blurb">
-                    The California Community Foundation leads positive systemic change that strengthens Los Angeles' communities. Currently, they are dedicating resources to aid recovery efforts following the Palisades wildfires that have ravaged the region.
-                </div>
-            </div>
-            <div id="charity-wrapper-4" class="charity-wrapper">
-                <div onclick="location.href='https://nwlc.org/'" class="charity-btn">
-                    <img src="images/nwlc.png">
-                </div>
-                <div class="charity-blurb">
-                    The National Women's Law Center, founded in 1972 in Washington, D.C., advocates for women's rights and LGBTQ rights through litigation, policy, and culture change initiatives.
-                </div>
+            <div class="dankfixed" id="dank-floater"></div>
+            <div class="dankfixed" id="dank-bernie">
+                <img src="images/bernie-madge.png">
             </div>
         </div>
-    </div>
-    <br>
-    <br>
 
-    <div class="events-container">
-        <h2 style="font-style: italic">"I have nothing to do with Project 2025." - Donald J Trump, September 10, 2024</h2>
+        <div class="charity-banner">
+            <p>Charities of the Month</p>
+            <div class="charity-container">
+                <div id="charity-wrapper-1" class="charity-wrapper">
+                    <div id="charity-image-1" onclick="location.href='https://www.renaissanceyouth.org/'" class="charity-btn">
+                        <img src="images/Renaissance-youth-center.png">
+                    </div>
+                    <div id="charity-blurb-wrapper-1" class="charity-blurb">
+                        The Renaissance Youth Center, based in Bronx, New York, has created a safe haven for the community's youth to develop life-long academic and social skills. They offer music classes, afterschool programming, tutoring, and civic engagement while instilling the importance of self and community growth.
+                    </div>
+                </div>
+                <div id="charity-wrapper-2" class="charity-wrapper">
+                    <div onclick="location.href='https://www.826la.org/'" class="charity-btn">
+                        <img src="images/826LA.jpg">
+                    </div>
+                    <div class="charity-blurb">
+                        826LA is a Los Angeles-based nonprofit dedicated to supporting students aged 6-18. They focus on students' creative and expository writing skills and help teachers inspire their students to write with programs structured around one-on-one attention.
+                    </div>
+                </div>
+                <div id="charity-wrapper-3" class="charity-wrapper">
+                    <div onclick="location.href='https://www.calfund.org/'" class="charity-btn">
+                        <img src="images/calfund.png">
+                    </div>
+                    <div class="charity-blurb">
+                        The California Community Foundation leads positive systemic change that strengthens Los Angeles' communities. Currently, they are dedicating resources to aid recovery efforts following the Palisades wildfires that have ravaged the region.
+                    </div>
+                </div>
+                <div id="charity-wrapper-4" class="charity-wrapper">
+                    <div onclick="location.href='https://nwlc.org/'" class="charity-btn">
+                        <img src="images/nwlc.png">
+                    </div>
+                    <div class="charity-blurb">
+                        The National Women's Law Center, founded in 1972 in Washington, D.C., advocates for women's rights and LGBTQ rights through litigation, policy, and culture change initiatives.
+                    </div>
+                </div>
+            </div>
+        </div>
         <br>
-        <table class="offenses-table">
-            <tbody class="offenses">
-            </tbody>
-        </table>
-    </div>
+        <br>
 
-    <footer>
-        <p>
-            Please consider <a href="https://ko-fi.com/iangradert" target="_blank">donating on Ko-Fi</a>
+        <div class="events-container">
+            <h2 style="font-style: italic">"I have nothing to do with Project 2025." - Donald J Trump, September 10, 2024</h2>
             <br>
-            All donations (after server upkeep fees) are donated to the charities of the week
-        </p>
-        <p>
-            Updated weekly(ish). For errata or charity suggestions, <a href="https://forms.gle/uh6Jn4BnwABU7cuj8" target="_blank">contact us</a>
-        </p>
-        <p>
-            Created by Ian Gradert | <a href="https://github.com/igrad/TheTrumpTicker" target="_blank">Contribute to the GitHub</a>
-        </p>
-        <p>
-            Proudly hosted by <a href="https://sustainablehosting.com" target="_blank">Sustainable Hosting</a>
-        </p>
-    </footer>
-</body>
+            <table class="offenses-table">
+                <tbody class="offenses">
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p>
+                Please consider <a href="https://ko-fi.com/iangradert" target="_blank">donating on Ko-Fi</a>
+                <br>
+                All donations (after server upkeep fees) are donated to the charities of the week
+            </p>
+            <p>
+                Updated weekly(ish). For errata or charity suggestions, <a href="https://forms.gle/uh6Jn4BnwABU7cuj8" target="_blank">contact us</a>
+            </p>
+            <p>
+                Created by Ian Gradert | <a href="https://github.com/igrad/TheTrumpTicker" target="_blank">Contribute to the GitHub</a>
+            </p>
+            <p>
+                Proudly hosted by <a href="https://sustainablehosting.com" target="_blank">Sustainable Hosting</a>
+            </p>
+            <p id="dank-toggle">
+                Enable D A N K M O D E
+            </p>
+        </footer>
+    </body>
 </html>

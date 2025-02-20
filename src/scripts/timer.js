@@ -1,36 +1,55 @@
-function updateCountdown() {
-    let targetDate = new Date("January 20, 2029 10:00:00 EST").getTime();
-    let now = new Date().getTime();
-    let timeDiff = targetDate - now;
+class Timer {
+    constructor(duration_ms = 1000,
+            singleShot = true,
+            autoStart = true,
+            callback = function(){}) {
+        this.duration_ms = duration_ms;
+        this.singleShot = singleShot;
+        this.autoStart = autoStart;
+        this.callback = callback;
+        this.running = false;
+        this.paused = false;
+        this.timeRemaining = this.duration_ms;
+        this.startTime = 0;
 
-    if (timeDiff < 0) {
-        $("#timer").html(
-            `<span>00 Years</span>
-            <span>00 Months</span>
-            <span>00 Days</span>
-            <span>00 Hours</span>
-            <span>00 Minutes</span>
-            <span>00 Seconds</span>`
-        );
-        return;
+        if (this.autoStart) this.Start();
     }
 
-    let years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365));
-    let months = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
-    let days = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+    Start() {
+        if (!this.running) {
+            this.running = true;
+            this.startTime = Date.now();
 
-    $("#timer").html(
-        `<span>${years} Years</span>
-        <span>${months} Months</span>
-        <span>${days} Days</span>
-        <span>${hours} Hours</span>
-        <span>${minutes} Minutes</span>
-        <span>${seconds} Seconds</span>`
-    );
+            if (!this.isPaused) {
+                this.timeRemaining = this.duration_ms;
+                this.isPaused = false;
+            }
+
+            this.timerID = setTimeout(function(timerReference) {
+                timerReference.callback();
+                if (!timerReference.singleShot) {
+                    timerReference.Start();
+                }
+            }, this.timeRemaining, this);
+        }
+    }
+
+    Pause() {
+        if (this.isRunning) {
+            this.isRunning = false;
+            this.paused = true;
+            clearTimeout(this.timerID);
+            timeRemaining -= Date.now() - this.startTime;
+        }
+    }
+
+    Resume() {
+        if (this.isPaused) this.Start();
+    }
+
+    Stop() {
+        this.isPaused = false;
+        this.isRunning = false;
+        clearTimeout(this.timerID);
+    }
 }
-
-setInterval(updateCountdown, 1000);
-updateCountdown();

@@ -1,0 +1,14 @@
+.dank {
+    display: hidden;
+}
+
+#dank-bernie {
+    right: 0px;
+    bottom: 100%;
+    opacity: 50%;
+}
+
+.dank-text {
+    font-style: italic;
+    color: #AAAAAA;
+}
