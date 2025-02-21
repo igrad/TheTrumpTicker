@@ -12,3 +12,10 @@
     font-style: italic;
     color: #AAAAAA;
 }
+
+/* Hide Bernie on very small screens (sorry Bernie) */
+@media (max-width: 400px) {
+    #dank-bernie {
+        display: none !important;
+    }
+}

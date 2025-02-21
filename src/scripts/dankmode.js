@@ -1,12 +1,13 @@
-let dank_mode_active = false;
+let dankModeActive = false;
 
 $("#dank-toggle").click(function () {
-    if(!dank_mode_active) {
-        $(".dankblock").css("display", "block");
-        $(".dankfixed").css("display", "fixed");
+    if(!dankModeActive) {
+        $(".dank").css("display", "inherit");
+        $("#dank-bernie").css("display", "fixed");
     }
     else {
         $(".dank").css("display", "none");
+        $("#dank-bernie").css("display", "none");
     }
-    dank_mode_active = !dank_mode_active;
+    dankModeActive = !dankModeActive;
 })
