@@ -240,11 +240,26 @@ const offenses = [
         text: "Effectively neutered several federal agencies, including the Inter-American Foundation (IAF) and United States Institute of Peace, among others.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/commencing-the-reduction-of-the-federal-bureaucracy/"
     },
-    // {
-    //     date: "February th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "February 26th, 2025",
+        text: "Directs each federal agency to create a centralized spending approval system (with guidance and participation from DOGE on its design and implementation), to review all current contracting policies, procedures, and personnel, and assigns each DOGE lead within those agencies to provide the respective director with a monthly montly report on contracting activities. To note, however; this does not apply to classified information or classified information systems.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/implementing-the-presidents-department-of-government-efficiency-cost-efficiency-initiative/"
+    },
+    {
+        date: "March 1st, 2025",
+        text: "Declared English as the official language of the United Stated. Revoked Executive Order 13166 of August 11, 2000 (Improving Accrss to Services for Persons with Limited English Proficiency), and directed the Attorney General to rescind any policy guidance documents issued persuant to Executive Order 13166.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/designating-english-as-the-official-language-of-the-united-states/"
+    },
+    {
+        date: "March 1st, 2025",
+        text: "Called for an immediate expansion to the availability of timer in America. Directed the Secretary of the Interior and Secretary of Agriculture to, adopt policies from other agencies to reduce or partially eliminate processes related to administrative approvals for timer production, forest management, and wildfire risk reduction treatments.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/immediate-expansion-of-american-timber-production/"
+    },
+    {
+        date: "March 3rd, 2025",
+        text: "Raised the tarriffs on Chinese goods outlined in Executive Order 14195 (Imposing Duties to Address teh Synthetic Opioid Supply Chain in the People's Republic of China) from 10% to 20% due to China's failure to comply with the aforementioned orders.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china/"
+    },
     // {
     //     date: "February th, 2025",
     //     text: "",
