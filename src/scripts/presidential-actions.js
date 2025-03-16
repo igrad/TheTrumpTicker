@@ -241,6 +241,11 @@ const offenses = [
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/commencing-the-reduction-of-the-federal-bureaucracy/"
     },
     {
+        date: "February 25th, 2025",
+        text: "Issued a vengeful memorandum against Covington & Buring LLP, a law firm who represented Special Counsel Jack Smith (and did so pro bono) when he brought two cases against the former president.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/02/suspension-of-security-clearances-and-evaluation-of-government-contracts/"
+    },
+    {
         date: "February 26th, 2025",
         text: "Directs each federal agency to create a centralized spending approval system (with guidance and participation from DOGE on its design and implementation), to review all current contracting policies, procedures, and personnel, and assigns each DOGE lead within those agencies to provide the respective director with a monthly montly report on contracting activities. To note, however; this does not apply to classified information or classified information systems.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/implementing-the-presidents-department-of-government-efficiency-cost-efficiency-initiative/"
@@ -260,8 +265,48 @@ const offenses = [
         text: "Raised the tarriffs on Chinese goods outlined in Executive Order 14195 (Imposing Duties to Address teh Synthetic Opioid Supply Chain in the People's Republic of China) from 10% to 20% due to China's failure to comply with the aforementioned orders.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china/"
     },
+    {
+        date: "March 6th, 2025",
+        text: "Amended the tariff on Canadian potash to 10% from 25%.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border-0c3c/"
+    },
+    {
+        date: "March 6th, 2025",
+        text: "Issued another executive order out of revenge for previous grievances by banning Perkins Coie LLP, who represented Hillary Clinton's campaign for president in 2016 and other democratic entities such as the Democratic National Convention, from receiving or continuing any contracts with the federal government and revoking all security clearances granted to Perkins' personnel.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-perkins-coie-llp/"
+    },
+    {
+        date: "March 6th, 2025",
+        text: "Amended the tariff on Mexicanpotash to 10% from 25%.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-southern-border/"
+    },
+    {
+        date: "March 7th, 2025",
+        text: "Directed the Secretary of Education to propose revisions to the Public Service Load Forgiveness Program (PSLF). These revisions are to exclude organizations that aid immigrants, trans children, and legal protests.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/"
+    },
+    {
+        date: "March 14th, 2025",
+        text: "Rescinded 18 more Biden-era Executive Orders, including orders addressing the COVID-19 response, minimum wage increases for some federal employees, and the advancement of human rights for LGBTQ people around the world.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/additional-recissions-of-harmful-executive-orders-and-actions/"
+    },
+    {
+        date: "March 14th, 2025",
+        text: "Issued another vindictive restriction on federal access of a law firm, this time the firm Paul, Weiss, Rifkind, Wharton & Garrison LLP (colloquially called Paul, Weiss). This is targetted at Mark Pomerantz, an attorney at the Manhattan District Attorney's office who prosecuted Trump in his 2023 trial. Pomerantz is a former employee of Paul, Weiss, but has not worked there for over a decade, according to the firm.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-paul-weiss/"
+    },
+    {
+        date: "March 14th, 2025",
+        text: "Announced the termincation of 7 more US Federal Agencies.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/continuing-the-reduction-of-the-federal-bureaucracy/"
+    },
+    {
+        date: "March 15th, 2025",
+            text: "Functionally declared war on Tren de Aragua, a Mexican cartel. This includes the authorizion of \"all lawful means to apprehend, restrain, secure, and remove Alien Enemies\".",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/invocation-of-the-alien-enemies-act-regarding-the-invasion-of-the-united-states-by-tren-de-aragua/"
+    },
     // {
-    //     date: "February th, 2025",
+    //     date: "March th, 2025",
     //     text: "",
     //     link: ""
     // },
