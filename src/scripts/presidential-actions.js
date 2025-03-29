@@ -292,7 +292,7 @@ const offenses = [
     },
     {
         date: "March 14th, 2025",
-        text: "Issued another vindictive restriction on federal access of a law firm, this time the firm Paul, Weiss, Rifkind, Wharton & Garrison LLP (colloquially called Paul, Weiss). This is targetted at Mark Pomerantz, an attorney at the Manhattan District Attorney's office who prosecuted Trump in his 2023 trial. Pomerantz is a former employee of Paul, Weiss, but has not worked there for over a decade, according to the firm.",
+        text: "Issued another vindictive restriction on federal access of a law firm, this time the firm Paul, Weiss, Rifkind, Wharton & Garrison LLP (colloquially called Paul, Weiss). This is targetted at Mark Pomerantz, an attorney at the Manhattan District Attorney's office who prosecuted Trump in his 2023 trial. Pomerantz is a former employee of Paul, Weiss, but has not worked there for over a decade, according to the firm. (note: this was later undone by executive order 14244)",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-paul-weiss/"
     },
     {
@@ -302,14 +302,59 @@ const offenses = [
     },
     {
         date: "March 15th, 2025",
-            text: "Functionally declared war on Tren de Aragua, a Mexican cartel. This includes the authorizion of \"all lawful means to apprehend, restrain, secure, and remove Alien Enemies\".",
+        text: "Functionally declared war on Tren de Aragua, a Mexican cartel. This includes the authorizion of \"all lawful means to apprehend, restrain, secure, and remove Alien Enemies\".",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/invocation-of-the-alien-enemies-act-regarding-the-invasion-of-the-united-states-by-tren-de-aragua/"
     },
-    // {
-    //     date: "March th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "March 19th, 2025",
+        text: "Ordered further removel of any mentions of DEI practices from the hiring and tenure review materials in the Foreign Service.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/removing-discrimination-and-discriminatory-equity-ideology-from-the-foreign-service/"
+    },
+    {
+        date: "March 20th, 2025",
+        text: "Closed the federal Department of Education.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/improving-education-outcomes-by-empowering-parents-states-and-communities/"
+    },
+    {
+        date: "March 20th, 2025",
+        text: "Ordered reviews and revisements of existing policies surrounding the extraction, use, and waste treatment of critical mineral resources, which will undoubtedly lead to more lax policies around the treatment of environmentally-unfriendly waste as consistent with other executive actions from the second Trump administration.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/immediate-measures-to-increase-american-mineral-production/"
+    },
+    {
+        date: "March 20th, 2025",
+        text: "Granted full access to Federal officials appointed by the President or Agency Heads (or their designees) to all unclassified agency record, data, software systems, and IT systems. This effectively removes any restrictive leashes on DOGE in their access to digital systems of federal offices, save for the necessary restrictions on classified information.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/stopping-waste-fraud-and-abuse-by-eliminating-information-silos/"
+    },
+    {
+        date: "March 22nd, 2025",
+        text: "In another revenge plot, revoked classified information access for 15+ members of of President Biden's administration and President Biden's family. This blocks these individuals from ever regaining security clearance again, save for a revocation of this executive order.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/rescinding-security-clearances-and-access-to-classified-information-from-specified-individuals/"
+    },
+    {
+        date: "March 25th, 2025",
+        text: "Imposed a 25% tariff on any goods from any country that imports Venezuelan oil. This is in retalliation for Venezuela abetting the Tren de Aragua cartel.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/imposing-tariffs-on-countries-importing-venezuelan-oil/"
+    },
+    {
+        date: "March th, 2025",
+        text: "Directed the OMB to lax restrictions on ",
+        link: ""
+    },
+    {
+        date: "March th, 2025",
+        text: "",
+        link: ""
+    },
+    {
+        date: "March th, 2025",
+        text: "",
+        link: ""
+    },
+    {
+        date: "March th, 2025",
+        text: "",
+        link: ""
+    },
 ]
 
 function addToListOfOffenses(offense) {
