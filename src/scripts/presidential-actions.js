@@ -336,25 +336,45 @@ const offenses = [
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/imposing-tariffs-on-countries-importing-venezuelan-oil/"
     },
     {
-        date: "March th, 2025",
-        text: "Directed the OMB to lax restrictions on ",
-        link: ""
+        date: "March 25th, 2025",
+        text: "Imposed restrictions on the law firm Jenner & Block, which has represented (pro bono, in some cases) President Trump's political opponents. This exeucitve order and several others like it are subject of great scrutiny by the federal judiciary.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-jenner-block/"
     },
     {
-        date: "March th, 2025",
-        text: "",
-        link: ""
+        date: "March 26th, 2025",
+        text: "Granted a full pardon to Devon Archer, a former business partner of Hunter Biden's who turned \"full MAGA\" to ingratiate Trump. He was convicted in 2022 of defrauding investors and a Native American tribal entity of tens of millions of dollars.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/executive-grant-of-clemency-for-devon-archer/"
     },
     {
-        date: "March th, 2025",
-        text: "",
-        link: ""
+        date: "March 26th, 2025",
+        text: "Applied at 25% tariff on imported consumer vehicles and vehicle parts in a continued effort to embolden the American auto manufacturer industry.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/adjusting-imports-of-automobiles-and-autombile-parts-into-the-united-states/"
     },
     {
-        date: "March th, 2025",
-        text: "",
-        link: ""
+        date: "March 27th, 2025",
+        text: "Imposed restrictions on the law firm Wilmer Cutler Pickering Hale and Dorr (WilmerHale, colloquially).",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-wilmerhale/"
     },
+    {
+        date: "March 27th, 2025",
+        text: "\"Un-woked\" the Smithsonian museum in its entirety.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/restoring-truth-and-sanity-to-american-history/"
+    },
+    {
+        date: "March 27th, 2025",
+        text: "Deemed a number of federal agencies (including the Department of State, Department of Justice, Department of Veterans Affairs, Department of the Treasury, and many more) have as a primary function intelligence, counterintelligence, investigative, or national security work, and are thusly excluded from the provisions accorded in 5 USC Ch. 71 LABOR-MANAGEMENT RELATIONS, which affords federal employees the right to form labor organizations and collectively bargain. Put simply, banned many federal employees from unionizing.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/exclusions-from-federal-labor-management-relations-programs/"
+    },
+    // {
+    //     date: "March th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "March th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
 ]
 
 function addToListOfOffenses(offense) {
