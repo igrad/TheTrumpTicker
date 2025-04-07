@@ -365,13 +365,18 @@ const offenses = [
         text: "Deemed a number of federal agencies (including the Department of State, Department of Justice, Department of Veterans Affairs, Department of the Treasury, and many more) have as a primary function intelligence, counterintelligence, investigative, or national security work, and are thusly excluded from the provisions accorded in 5 USC Ch. 71 LABOR-MANAGEMENT RELATIONS, which affords federal employees the right to form labor organizations and collectively bargain. Put simply, banned many federal employees from unionizing.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/exclusions-from-federal-labor-management-relations-programs/"
     },
+    {
+        date: "March 31st, 2025",
+        text: "Established the office of the United States Investment Accelerator - an office within the Deparment of Commerce to \"facilititate and accelerate investments above $1 billion in the United States by assisting investors as they navigate United Status Government regulatory processes\", which includes possible increases to access of America's national resources and reducing regulatory barriers. This office aids not only domestic investors, but also foreign investors.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/03/establishing-the-united-states-investment-accelerator/"
+    },
+    {
+        date: "April 2nd, 2025",
+        text: "Established a wopping number of tarriffs on more than two dozen foreign nations as recompense for the massive trade deficit between the United Status and these nations. Ad valorem tariff rates vary up to 60%.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/"
+    },
     // {
-    //     date: "March th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "March th, 2025",
+    //     date: "April th, 2025",
     //     text: "",
     //     link: ""
     // },
