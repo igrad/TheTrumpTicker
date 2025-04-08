@@ -34,3 +34,20 @@ Center on Halsted advances community and secures the health and well-being of th
 ### [Georgia Asylum and Immigration Network](https://georgiaasylum.org/)
 ![Georgia Asylum and Immigration Network](src/images/georgiaasylum.png)
 Georgia Asylum and Immigration Network (GAIN) is a 501(c)(3) organization that protects and empowers immigrant survivors of crime and persecution, including asylum-seekers and immigrant survivors of human trafficking, domestic violence, and sexual abuse. Our staff attorneys, paralegals, and navigators provide direct service to our clients while also building a volunteer force of attorneys, whom we recruit, train, and mentor. Through direct representation as well as our pro bono program which multiplies our impact, GAIN assists over 1,000 clients and family members each year.
+
+## April 2025
+### [The Association for Autism and Neurodiversity (AANE)](https://www.aane.org/)
+![AANE](src/images/aane.png)
+The Association for Autism and Neurodiversity (AANE) - formerly known as the Asperger/Autism Network - helps Autistic and similarly Neurodivergent people build meaningful, connected lives. We provide individuals, families, and professionals with education, community, and support, in an inclusive atmosphere of validation and respect.
+
+### [Project Innerspace](https://projectinnerspace.org/)
+![Project Innerspace](src/images/projectinnerspace.png)
+Project Innerspace aims to unlock global exponential growth of geothermal by facilitating the rapid transfer of resources, technologies, and know-how from the oil and gas industry toward geothermal energy production. We’re on a sprint to complete our mission by 2030. By the end of this decade – when our work is complete – geothermal energy development will be on an exponential roll with the oil and gas industry engaged on a worldwide scale.
+
+### [Affirmations LGBTQ+ Community Center](https://goaffirmations.org/)
+![Affirmations](src/images/goaffirmations.png)
+Affirmations LGBTQ+ Community Center was founded in 1989 with a mission to provide a welcoming space where people of all sexual orientations, gender identities and expressions, and cultures can find support and unconditional acceptance, and where they can learn, grow, socialize and feel safe.
+
+### [Nova Ukraine](https://novaukraine.org/)
+![Nova Ukraine](src/images/novaukraine.png)
+Nova Ukraine works diligently to provide humanitarian aid to vulnerable groups and individuals in Ukraine and to raise awareness about Ukraine in the US and throughout the world. We fully support Ukraine in its efforts to build a strong civil society, reform its educational system, and to eliminate corruption.
