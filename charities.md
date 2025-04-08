@@ -28,7 +28,7 @@ New Door Ventures helps at-risk youth get ready for work and life. Through real 
 Established in 1996, the mission of Gift of Adoption is to provide grants to complete the adoptions of vulnerable children-giving them permanent families and a chance to thrive.
 
 ### [Center on Halsted](https://centeronhalsted.org/)
-![Center on Halsted](src/images/centeronhalstad.png)
+![Center on Halsted](src/images/centeronhalsted.png)
 Center on Halsted advances community and secures the health and well-being of the LGBTQ people of Chicagoland and throughout the Midwest. Though Center on Halsted's building opened in 2007, our history goes back much further. We were known as Horizons Community Services, the Midwest's largest LGBTQ social service agency. We are proud of our legacy of advocacy, support, and educational services—the same services that helped form the core of Center on Halsted's programming.
 
 ### [Georgia Asylum and Immigration Network](https://georgiaasylum.org/)
