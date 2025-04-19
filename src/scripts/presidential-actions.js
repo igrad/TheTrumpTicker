@@ -227,12 +227,12 @@ const offenses = [
     },
     {
         date: "February 18th, 2025",
-        text: "Declared that all Independent Regulatory Agencies (IRAs, such as the Federal Reserve, the Securities and Exchange Commission (SEC), and the Federal Trade Commission (FTC)) shall establish a White House Liaison within their organizations, and that all such agencies' are beholden to the President's or Attorney General's interpretation of the law for the executive branch.",
+        text: "Declared that all Independent Regulatory Agencies (IRAs, such as the Federal Reserve, the Securities and Exchange Commission (SEC), and the Federal Trade Commission (FTC)) shall establish a White House Liaison within their organizations, and that all such agencies are beholden to the President's or Attorney General's interpretation of the law for the executive branch.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/ensuring-accountability-for-all-agencies/"
     },
     {
         date: "February 19th, 2025",
-        text: "Directed agency heads to coordinate with their DOGE Team Leads and the Director of OMB to identify any existing policies that may contradict the president's \"America First\" message. For example, it targets \"regulations that impose significant costs upon private parties that are not outweighed by public benefits\", and \"regulations that harm the national interest by [...] impeding technological innovation, infrastructure development. inflation reduction, research and development, economic development, energy production, land use, and foreign policy objectives\".",
+        text: "Directed agency heads to coordinate with their DOGE Team Leads and the Director of OMB to identify any existing policies that may contradict the president's \"America First\" message. For example, it targets \"regulations that impose significant costs upon private parties that are not outweighed by public benefits\", and \"regulations that harm the national interest by [...] impeding technological innovation, infrastructure development, inflation reduction, research and development, economic development, energy production, land use, and foreign policy objectives\".",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/ensuring-lawful-governance-and-implementing-the-presidents-department-of-government-efficiency-deregulatory-initiative/"
     },
     {
@@ -252,12 +252,12 @@ const offenses = [
     },
     {
         date: "March 1st, 2025",
-        text: "Declared English as the official language of the United Stated. Revoked Executive Order 13166 of August 11, 2000 (Improving Accrss to Services for Persons with Limited English Proficiency), and directed the Attorney General to rescind any policy guidance documents issued persuant to Executive Order 13166.",
+        text: "Declared English as the official language of the United Stated. Revoked Executive Order 13166 of August 11, 2000 (Improving Access to Services for Persons with Limited English Proficiency), and directed the Attorney General to rescind any policy guidance documents issued persuant to Executive Order 13166.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/designating-english-as-the-official-language-of-the-united-states/"
     },
     {
         date: "March 1st, 2025",
-        text: "Called for an immediate expansion to the availability of timer in America. Directed the Secretary of the Interior and Secretary of Agriculture to, adopt policies from other agencies to reduce or partially eliminate processes related to administrative approvals for timer production, forest management, and wildfire risk reduction treatments.",
+        text: "Called for an immediate expansion to the availability of timber in America. Directed the Secretary of the Interior and Secretary of Agriculture to, adopt policies from other agencies to reduce or partially eliminate processes related to administrative approvals for timber production, forest management, and wildfire risk reduction treatments.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/immediate-expansion-of-american-timber-production/"
     },
     {
@@ -277,7 +277,7 @@ const offenses = [
     },
     {
         date: "March 6th, 2025",
-        text: "Amended the tariff on Mexicanpotash to 10% from 25%.",
+        text: "Amended the tariff on Mexican potash to 10% from 25%.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-southern-border/"
     },
     {
@@ -372,14 +372,44 @@ const offenses = [
     },
     {
         date: "April 2nd, 2025",
-        text: "Established a wopping number of tarriffs on more than two dozen foreign nations as recompense for the massive trade deficit between the United Status and these nations. Ad valorem tariff rates vary up to 60%.",
+        text: "Established a whopping number of tarriffs on more than two dozen foreign nations as recompense for the massive trade deficit between the United Status and these nations. Ad valorem tariff rates vary up to 60%.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/"
     },
-    // {
-    //     date: "April th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "April 8th, 2025",
+        text: "Directed the Attorney General to identify all state and local laws promoting climate-conscious energy production, and to \"take all appropriate action to stop the enforcement of [such laws]\", or to recommend to the President additional actions to otherwise eliminate the enforcement of such laws. This is all pursuant to Executive Order 14156 \"Declaring a National Energy Emergency\" and Executive Order 14154 \"Unleashing American Energy\".",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/protecting-american-energy-from-state-overreach/"
+    },
+    {
+        date: "April 8th, 2025",
+        text: "Altered the wording of several prior Executive Orders to denote coal as a mineral. Aside from the fact that coal is scientifically classified as a sedimentary rock and not as a mineral (<a href=\"https://main.wsgs.wyo.gov/energy/coal/what-is-coal\" target=\"_blank\" rel=\"noopener noreferrer\">WSGS, 2025</a>), this entitles coal to a relaxation of several regulations pertaining to ecological sustainability as specified in Executive Order 14241 \"Immediate Measures to Increase American Mineral Production\". This also opens up federal lands for coal extraction and directs several agencies and federal departments to eradicate or otherwise disincentivize policies, initiatives, and organizations that seek to reduce America's coal dependency in favor of cleaner alternatives.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/reinvigorating-americas-beautiful-clean-coal-industry-and-amending-executive-order-14241/"
+    },
+    {
+        date: "April 8th, 2025",
+        text: "Majorly increased tariffs against China, from 34% to 84% on most items.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/amendment-to-recipricol-tariffs-and-updated-duties-as-applied-to-low-value-imports-from-the-peoples-republic-of-china/"
+    },
+    {
+        date: "April th, 2025",
+        text: "",
+        link: ""
+    },
+    {
+        date: "April th, 2025",
+        text: "",
+        link: ""
+    },
+    {
+        date: "April th, 2025",
+        text: "",
+        link: ""
+    },
+    {
+        date: "April th, 2025",
+        text: "",
+        link: ""
+    },
 ]
 
 function addToListOfOffenses(offense) {
