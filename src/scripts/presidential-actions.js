@@ -406,10 +406,60 @@ const offenses = [
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-americas-maritime-dominance/"
     },
     {
-        date: "April th, 2025",
-        text: "",
-        link: ""
+        date: "April 9th, 2025",
+        text: "Directed the Department of Defense (DoD) to reform the processes for acquiring commercial solutions and contracts for defense purposes. Put another way, paving the way for the federal government to purchase more war-ready systems from the private sector.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/modernizing-defense-acquisitions-and-spurring-innovation-in-the-defense-industrial-base/"
     },
+    {
+        date: "April 9th, 2025",
+        text: "Issued another Executive Order against a law firm, this time against Susman Godfrey who, represented Dominion Voting Systems in a defamatioon lawsuit filed against Fox News over the baseless claims produced about the 2020 election.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-from-susman-godfrey/"
+    },
+    {
+        date: "April 9th, 2025",
+        text: "Issued retributive actions against Chris Krebs, former CISA head who, according to the current administration, \"weaponized and abused his Government  authority [via the] censorship of disfavored speech inpliucation the 2020 election and COVID-19 pandemic.\" CISA, under Krebs' leadership, combated falsehoods and disinformation issued by Trump's first administration and several conservative outlets.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-from-chris-krebs-and-government-censorship/"
+    },
+    {
+        date: "April 9th, 2025",
+        text: "Issued retributions against Miles Taylor, a former George W. Bush and Trump aid as an administrative staff assistant in the Department of Homeland Security. Taylor wrote a New York Times op-ed anonymously and wrote a book under the pseudonym \"Anonymous\" that was highly critical of Trump, and announced his penmanship just days before the 2020 election.\"",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-associated-with-an-egregious-leaker-and-disseminator-of-falsehoods/"
+    },
+    {
+        date: "April 9th, 2025",
+        text: "Raised tariffs on China to 125%.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/modifying-reciprocal-tariff-rates-to-reflect-trading-partner-retaliation-and-alignment/"
+    },
+    {
+        date: "April 15th, 2025",
+        text: "Directed the Secretaries of Labor, HHS, Homeland Security, and the Commissioner of Social Security to ensure that ineligible aliens are not receiving funds from Social Security. Given that this is already a provision of the Social Security Act, one can only assume that the intent is to investigate existing beneficiaries in search of anyone wrongfully receiving Socal Security paychecks.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/preventing-illegal-aliens-from-obtaining-social-security-act-benefits/"
+    },
+    {
+        date: "April 15th, 2025",
+        text: "Issued directives to slim down the Federal Acquisition Regulation (FAR), presumably to streamline and expediate the process of federal acquisition of commercial defense solutions.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-common-sense-to-federal-procurement/"
+    },
+    {
+        date: "April 17th, 2025",
+        text: "Lifted the ban on commercial fishing in the Pacific Remote Islands Marine National Monument (PRIMNM), which was established in 2009 to protect approximately 490,000 square miles of open ocean, coral reef, and island habitats including seven wildlife refugees.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/unleashing-american-commercial-fishing-in-the-pacific/"
+    },
+    {
+        date: "April 17th, 2025",
+        text: "Directed heads of several agencies to collaborate on reviewing and, where applicable, removing restrictions on fishing for consumer seafood. This will, presumably, lead to an increase in overfishing and environmental mismanagement.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-american-seafood-competitiveness/"
+    },
+    // {
+    //     date: "April th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "April th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
 ]
 
 function addToListOfOffenses(offense) {
