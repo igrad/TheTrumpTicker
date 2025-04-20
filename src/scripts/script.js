@@ -2,7 +2,8 @@ let numberOfCharitiesThisMonth = 4;
 
 
 $(document).ready(function() {
-    addAllOffensesToList()
+    // addAllOffensesToList()
+    add10OffensesToList()
 
     // Pause updating the charity if the user has scrolled far enough down the page
     window.addEventListener("scroll", function() {
@@ -25,5 +26,10 @@ $(document).ready(function() {
                 resumeTimer();
             }
         }
+    });
+
+    $("#offenses-more").click(function() {
+        add10OffensesToList();
+        setMoreText();
     });
 });

@@ -169,6 +169,17 @@ body {
     text-decoration: underline;
 }
 
+#offenses-more {
+    display: block;
+}
+
+#offenses-more span {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 footer {
