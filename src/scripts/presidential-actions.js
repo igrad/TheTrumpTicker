@@ -391,19 +391,19 @@ const offenses = [
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/amendment-to-recipricol-tariffs-and-updated-duties-as-applied-to-low-value-imports-from-the-peoples-republic-of-china/"
     },
     {
-        date: "April th, 2025",
-        text: "",
-        link: ""
+        date: "April 9th, 2025",
+        text: "Greatly oversimplified the definition of a showerhead as it pertains to safety and efficiency regulations established under Obama and Biden administrations.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/maintaining-acceptable-water-pressure-in-showerheads/"
     },
     {
-        date: "April th, 2025",
-        text: "",
-        link: ""
+        date: "April 9th, 2025",
+        text: "Ordered several energy-related federal agencies to insert a sunset clause into numerous environmentalism-focused acts. After the declared sunset date, these acts will be considered nullified. Such acts include the Energy Policy Act (of both 1992 and 2005), the Nuclear Waste Policy Act of 1982, the Marine Mammal Protection Act of 1972, and perhaps most notably the Endangered Species Act of 1973.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/zero-based-regulatory-budgeting-to-unleash-american-energy/"
     },
     {
-        date: "April th, 2025",
-        text: "",
-        link: ""
+        date: "April 9th, 2025",
+        text: "Directed the enhanced production of cargo ships, loading and unloading facilities, and associated infrastructure to decrease the United States' reliance on Chinese-made freighters and utilities. Combined with the other Executive Orders from this day, it likely spells major devastation to numerous maritime ecosystems already in critical condition (speculative).",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-americas-maritime-dominance/"
     },
     {
         date: "April th, 2025",
