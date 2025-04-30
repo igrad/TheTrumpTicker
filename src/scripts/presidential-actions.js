@@ -450,11 +450,21 @@ const offenses = [
         text: "Directed heads of several agencies to collaborate on reviewing and, where applicable, removing restrictions on fishing for consumer seafood. This will, presumably, lead to an increase in overfishing and environmental mismanagement.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-american-seafood-competitiveness/"
     },
-    // {
-    //     date: "April th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "April 23rd, 2025",
+        text: "Called for an expansion of access to seabed minerals, specifically in the private sector. Such minerals include things like nickel, cobalt, copper, and even uranium.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/unleashing-americas-offshore-critical-minerals-and-resources/"
+    },
+    {
+        date: "April 28th, 2025",
+        text: "Directed federal agency heads to withhold federal dollars from sanctuary cities and states.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/protecting-american-communities-from-criminal-aliens/"
+    },
+    {
+        date: "April 28th, 2025",
+        text: "Directed the executive branch to promote increased funding and protections for law enforcement agencies, including improved pay and benefits for officers, strengthened and expanded legal protections for officers, and more severe punishments for crimes against officers. This order also, as has been noticed by many people online since its signing, provisions \"excess military and national security assets in local jurisdictions to assist State and local law enforcement.\"",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/04/strengthening-and-unleashing-americas-law-enforcement-to-pursue-criminals-and-protect-innocent-citizens/"
+    },
     // {
     //     date: "April th, 2025",
     //     text: "",
