@@ -142,7 +142,7 @@ const offenses = [
     },
     {
         date: "February 6th, 2025",
-        text: "Directed the heads of executive departments and agencies to review all funding that agencies provide to NGOs specifically to identify NGOs \"that actively undermine the security, prosperity, and safety of the American people.\"",
+        text: "Directed the heads of executive departments and agencies to review all funding that agencies provide to Non-Governmental Organizations (NGOs). It also aims to identify NGOs \"that actively undermine the security, prosperity, and safety of the American people.\"",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/memorandum-for-the-heads-of-executive-departments-and-agencies/"
     },
     {
@@ -157,7 +157,7 @@ const offenses = [
     },
     {
         date: "February 4th, 2025",
-        text: "Ordered a comprehensive review of all current or pending firearms-related legislation that may impede upon the 2nd Amendment.",
+        text: "Ordered a comprehensive review of all current or pending firearms-related legislation that may impede upon the 2nd Amendment (subjective).",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/protecting-second-amendment-rights/"
     },
     {
@@ -202,12 +202,12 @@ const offenses = [
     },
     {
         date: "February 12th, 2025",
-        text: "Directed the Secretaries of State to further align their hiring and retention policies with the \"America first\" initiative, targetting the release of employees who do not emphatically promote the President's message and values.",
+        text: "Directed the Secretaries of State to further align their hiring and retention policies with the President's \"America first\" initiative, targetting the release of employees who do not emphatically promote the President's message and values.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/one-voice-for-americas-foreign-relations/"
     },
     {
         date: "February 13th, 2025",
-        text: "Signed in Robert F Kennedy Jr. - a notorious science denier and advocate of alternative medicines - as Secretary of the Department of Health and Human Services (HHS).",
+        text: "Signed in Robert F Kennedy Jr. (a notorious science denier and advocate of alternative medicines) as Secretary of the Department of Health and Human Services (HHS).",
         link: "https://www.whitehouse.gov/remarks/2025/02/remarks-by-president-trump-and-secretary-of-the-department-of-health-and-human-services-robert-f-kennedy-jr-during-swearing-in-ceremony/"
     },
     {
@@ -237,7 +237,7 @@ const offenses = [
     },
     {
         date: "February 19th, 2025",
-        text: "Effectively neutered several federal agencies, including the Inter-American Foundation (IAF) and United States Institute of Peace, among others.",
+        text: "Neutered several federal agencies, including the Inter-American Foundation (IAF) and United States Institute of Peace, among others.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/commencing-the-reduction-of-the-federal-bureaucracy/"
     },
     {
@@ -247,7 +247,7 @@ const offenses = [
     },
     {
         date: "February 26th, 2025",
-        text: "Directs each federal agency to create a centralized spending approval system (with guidance and participation from DOGE on its design and implementation), to review all current contracting policies, procedures, and personnel, and assigns each DOGE lead within those agencies to provide the respective director with a monthly montly report on contracting activities. To note, however; this does not apply to classified information or classified information systems.",
+        text: "Directs each federal agency to create a centralized spending approval system (with guidance and participation from DOGE on its design and implementation), to review all current contracting policies, procedures, and personnel, and assigns each DOGE lead within those agencies to provide the respective director with a monthly report on contracting activities. To note, however; this does not apply to classified information or classified information systems.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/02/implementing-the-presidents-department-of-government-efficiency-cost-efficiency-initiative/"
     },
     {
@@ -257,12 +257,12 @@ const offenses = [
     },
     {
         date: "March 1st, 2025",
-        text: "Called for an immediate expansion to the availability of timber in America. Directed the Secretary of the Interior and Secretary of Agriculture to, adopt policies from other agencies to reduce or partially eliminate processes related to administrative approvals for timber production, forest management, and wildfire risk reduction treatments.",
+        text: "Called for an immediate expansion to the availability of timber in America. Directed the Secretary of the Interior and Secretary of Agriculture to adopt policies from other agencies to reduce or partially eliminate processes related to administrative approvals for timber production, forest management, and wildfire risk reduction treatments.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/immediate-expansion-of-american-timber-production/"
     },
     {
         date: "March 3rd, 2025",
-        text: "Raised the tarriffs on Chinese goods outlined in Executive Order 14195 (Imposing Duties to Address teh Synthetic Opioid Supply Chain in the People's Republic of China) from 10% to 20% due to China's failure to comply with the aforementioned orders.",
+        text: "Raised the tariffs on Chinese goods outlined in Executive Order 14195 (Imposing Duties to Address teh Synthetic Opioid Supply Chain in the People's Republic of China) from 10% to 20% due to China's failure to comply with the aforementioned orders.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china/"
     },
     {
@@ -272,7 +272,7 @@ const offenses = [
     },
     {
         date: "March 6th, 2025",
-        text: "Issued another executive order out of revenge for previous grievances by banning Perkins Coie LLP, who represented Hillary Clinton's campaign for president in 2016 and other democratic entities such as the Democratic National Convention, from receiving or continuing any contracts with the federal government and revoking all security clearances granted to Perkins' personnel.",
+        text: "Issued another executive order out of revenge for previous grievances by banning Perkins Coie LLP (who represented Hillary Clinton's campaign for president in 2016 and other democratic entities such as the Democratic National Convention) from receiving or continuing any contracts with the federal government and revoking all security clearances granted to Perkins' personnel.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-perkins-coie-llp/"
     },
     {
@@ -292,17 +292,17 @@ const offenses = [
     },
     {
         date: "March 14th, 2025",
-        text: "Issued another vindictive restriction on federal access of a law firm, this time the firm Paul, Weiss, Rifkind, Wharton & Garrison LLP (colloquially called Paul, Weiss). This is targetted at Mark Pomerantz, an attorney at the Manhattan District Attorney's office who prosecuted Trump in his 2023 trial. Pomerantz is a former employee of Paul, Weiss, but has not worked there for over a decade, according to the firm. (note: this was later undone by executive order 14244)",
+        text: "Issued another vindictive restriction on federal access of a law firm: this time the firm Paul, Weiss, Rifkind, Wharton & Garrison LLP (colloquially called Paul, Weiss). This is targetted at Mark Pomerantz, an attorney at the Manhattan District Attorney's office who prosecuted Trump in his 2023 trial. Pomerantz is a former employee of Paul, Weiss, but has not worked there for over a decade, according to the firm.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-paul-weiss/"
     },
     {
         date: "March 14th, 2025",
-        text: "Announced the termincation of 7 more US Federal Agencies.",
+        text: "Announced the termination of 7 more US Federal Agencies.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/continuing-the-reduction-of-the-federal-bureaucracy/"
     },
     {
         date: "March 15th, 2025",
-        text: "Functionally declared war on Tren de Aragua, a Mexican cartel. This includes the authorizion of \"all lawful means to apprehend, restrain, secure, and remove Alien Enemies\".",
+        text: "Declared war on Tren de Aragua, a Mexican cartel. This includes the authorizion of \"all lawful means to apprehend, restrain, secure, and remove Alien Enemies\".",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/invocation-of-the-alien-enemies-act-regarding-the-invasion-of-the-united-states-by-tren-de-aragua/"
     },
     {
@@ -312,7 +312,7 @@ const offenses = [
     },
     {
         date: "March 20th, 2025",
-        text: "Closed the federal Department of Education.",
+        text: "Shuttered the federal Department of Education.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/improving-education-outcomes-by-empowering-parents-states-and-communities/"
     },
     {
@@ -327,27 +327,27 @@ const offenses = [
     },
     {
         date: "March 22nd, 2025",
-        text: "In another revenge plot, revoked classified information access for 15+ members of of President Biden's administration and President Biden's family. This blocks these individuals from ever regaining security clearance again, save for a revocation of this executive order.",
+        text: "In another revenge plot, revoked classified information access for 15+ members of President Biden's administration family. This blocks these individuals from ever regaining security clearance again, save for a revocation of this executive order.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/rescinding-security-clearances-and-access-to-classified-information-from-specified-individuals/"
     },
     {
         date: "March 25th, 2025",
-        text: "Imposed a 25% tariff on any goods from any country that imports Venezuelan oil. This is in retalliation for Venezuela abetting the Tren de Aragua cartel.",
+        text: "Imposed a 25% tariff on goods from any country that imports Venezuelan oil. This is in retalliation for Venezuela abetting the Tren de Aragua cartel.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/imposing-tariffs-on-countries-importing-venezuelan-oil/"
     },
     {
         date: "March 25th, 2025",
-        text: "Imposed restrictions on the law firm Jenner & Block, which has represented (pro bono, in some cases) President Trump's political opponents. This exeucitve order and several others like it are subject of great scrutiny by the federal judiciary.",
+        text: "Imposed restrictions on the law firm Jenner & Block, which has represented (pro bono, in some cases) President Trump's political opponents. This executive order and several others like it are subject of great scrutiny by the federal judiciary.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-jenner-block/"
     },
     {
         date: "March 26th, 2025",
-        text: "Granted a full pardon to Devon Archer, a former business partner of Hunter Biden's who turned \"full MAGA\" to ingratiate Trump. He was convicted in 2022 of defrauding investors and a Native American tribal entity of tens of millions of dollars.",
+        text: "Granted a full pardon to Devon Archer, a former business partner of Hunter Biden's who turned \"full MAGA\" to ingratiate Trump. He was convicted in 2022 of defrauding several investors and a Native American tribal entity of tens of millions of dollars.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/executive-grant-of-clemency-for-devon-archer/"
     },
     {
         date: "March 26th, 2025",
-        text: "Applied at 25% tariff on imported consumer vehicles and vehicle parts in a continued effort to embolden the American auto manufacturer industry.",
+        text: "Applied a 25% tariff on imported consumer vehicles and vehicle parts in a continued effort to embolden the American auto manufacturer industry.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/adjusting-imports-of-automobiles-and-autombile-parts-into-the-united-states/"
     },
     {
@@ -357,22 +357,22 @@ const offenses = [
     },
     {
         date: "March 27th, 2025",
-        text: "\"Un-woked\" the Smithsonian museum in its entirety.",
+        text: "\"Un-woked\" the Smithsonian museum.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/restoring-truth-and-sanity-to-american-history/"
     },
     {
         date: "March 27th, 2025",
-        text: "Deemed a number of federal agencies (including the Department of State, Department of Justice, Department of Veterans Affairs, Department of the Treasury, and many more) have as a primary function intelligence, counterintelligence, investigative, or national security work, and are thusly excluded from the provisions accorded in 5 USC Ch. 71 LABOR-MANAGEMENT RELATIONS, which affords federal employees the right to form labor organizations and collectively bargain. Put simply, banned many federal employees from unionizing.",
+        text: "Deemed a number of federal agencies (including the Department of State, Department of Justice, Department of Veterans Affairs, Department of the Treasury, and many more) to have, as a primary function, intelligence, counterintelligence, investigative, or national security work, and are thusly excluded from the provisions accorded in 5 USC Ch. 71 LABOR-MANAGEMENT RELATIONS, which affords federal employees the right to form labor organizations and collectively bargain. Put simply, banned many federal employees from unionizing.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/exclusions-from-federal-labor-management-relations-programs/"
     },
     {
         date: "March 31st, 2025",
-        text: "Established the office of the United States Investment Accelerator - an office within the Deparment of Commerce to \"facilititate and accelerate investments above $1 billion in the United States by assisting investors as they navigate United Status Government regulatory processes\", which includes possible increases to access of America's national resources and reducing regulatory barriers. This office aids not only domestic investors, but also foreign investors.",
+        text: "Established the office of the United States Investment Accelerator - an office within the Department of Commerce to \"facilitate and accelerate investments above $1 billion in the United States by assisting investors as they navigate United Status Government regulatory processes\", which includes possible increases to access of America's national resources and reducing regulatory barriers. This office aids both domestic and foreign investors.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/03/establishing-the-united-states-investment-accelerator/"
     },
     {
         date: "April 2nd, 2025",
-        text: "Established a whopping number of tarriffs on more than two dozen foreign nations as recompense for the massive trade deficit between the United Status and these nations. Ad valorem tariff rates vary up to 60%.",
+        text: "Established a whopping number of tarriffs on more than two dozen foreign nations as recompense for the trade deficit between the United Status and these nations. Ad valorem tariff rates vary up to 60%.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/"
     },
     {
@@ -412,12 +412,12 @@ const offenses = [
     },
     {
         date: "April 9th, 2025",
-        text: "Issued another Executive Order against a law firm, this time against Susman Godfrey who, represented Dominion Voting Systems in a defamatioon lawsuit filed against Fox News over the baseless claims produced about the 2020 election.",
+        text: "Issued another Executive Order against a law firm, this time against Susman Godfrey, who represented Dominion Voting Systems in a defamatioon lawsuit filed against Fox News over the baseless claims produced about the 2020 election.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-from-susman-godfrey/"
     },
     {
         date: "April 9th, 2025",
-        text: "Issued retributive actions against Chris Krebs, former CISA head who, according to the current administration, \"weaponized and abused his Government  authority [via the] censorship of disfavored speech inpliucation the 2020 election and COVID-19 pandemic.\" CISA, under Krebs' leadership, combated falsehoods and disinformation issued by Trump's first administration and several conservative outlets.",
+        text: "Issued retributive actions against Chris Krebs, former CISA head who, according to the current administration, \"weaponized and abused his Government authority [via the] censorship of disfavored speech implication in the 2020 election and COVID-19 pandemic.\" CISA, under Krebs' leadership, combated falsehoods and disinformation issued by Trump's first administration and several conservative outlets.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-from-chris-krebs-and-government-censorship/"
     },
     {
@@ -442,7 +442,7 @@ const offenses = [
     },
     {
         date: "April 17th, 2025",
-        text: "Lifted the ban on commercial fishing in the Pacific Remote Islands Marine National Monument (PRIMNM), which was established in 2009 to protect approximately 490,000 square miles of open ocean, coral reef, and island habitats including seven wildlife refugees.",
+        text: "Lifted the ban on commercial fishing in the Pacific Remote Islands Marine National Monument (PRIMNM), which was established in 2009 to protect approximately 490,000 square miles of open ocean, coral reef, and island habitats including seven wildlife refuges.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/unleashing-american-commercial-fishing-in-the-pacific/"
     },
     {
@@ -452,7 +452,7 @@ const offenses = [
     },
     {
         date: "April 23rd, 2025",
-        text: "Called for an expansion of access to seabed minerals, specifically in the private sector. Such minerals include things like nickel, cobalt, copper, and even uranium.",
+        text: "Called for an expansion of access to seabed minerals, specifically in the private sector. Such minerals include nickel, cobalt, copper, and even uranium.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/unleashing-americas-offshore-critical-minerals-and-resources/"
     },
     {
@@ -465,8 +465,13 @@ const offenses = [
         text: "Directed the executive branch to promote increased funding and protections for law enforcement agencies, including improved pay and benefits for officers, strengthened and expanded legal protections for officers, and more severe punishments for crimes against officers. This order also, as has been noticed by many people online since its signing, provisions \"excess military and national security assets in local jurisdictions to assist State and local law enforcement.\"",
         link: "https://www.whitehouse.gov/presidential-actions/2025/04/strengthening-and-unleashing-americas-law-enforcement-to-pursue-criminals-and-protect-innocent-citizens/"
     },
+    {
+        date: "May 1st, 2025",
+        text: "Established the Religious Liberty Commission, which aims to advise the White House Faith Office and the Domestic Policy Council on religious liberty policies. The Commission itself is only designed to gather information and to advise, but it has been tasked with advising on a number of controversial topics, such as \"conscience protections in the health care field and concerning vaccine mandates\", \"parents' authority to direct the care, upbringing, and education of their children\", and \"the right to choose a religious education\". This very plainly translates to healthcare workers refusing to administer vaccines for religious purposes, schools being forced to deadname and/or misgender children at their parents' discretion, and the further spread of blunderous school voucher programs.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/establishment-of-the-religious-liberty-commission/"
+    },
     // {
-    //     date: "April th, 2025",
+    //     date: "May th, 2025",
     //     text: "",
     //     link: ""
     // },
