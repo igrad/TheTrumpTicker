@@ -470,6 +470,31 @@ const offenses = [
         text: "Established the Religious Liberty Commission, which aims to advise the White House Faith Office and the Domestic Policy Council on religious liberty policies. The Commission itself is only designed to gather information and to advise, but it has been tasked with advising on a number of controversial topics, such as \"conscience protections in the health care field and concerning vaccine mandates\", \"parents' authority to direct the care, upbringing, and education of their children\", and \"the right to choose a religious education\". This very plainly translates to healthcare workers refusing to administer vaccines for religious purposes, schools being forced to deadname and/or misgender children at their parents' discretion, and the further spread of blunderous school voucher programs.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/establishment-of-the-religious-liberty-commission/"
     },
+    {
+        date: "May 1st, 2025",
+        text: "Ended federal funding for PBS and NPR.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/ending-taxpayer-subsidization-of-biased-media/"
+    },
+    // {
+    //     date: "May 1st, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "May th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "May th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "May th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
     // {
     //     date: "May th, 2025",
     //     text: "",
