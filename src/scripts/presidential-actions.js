@@ -475,21 +475,16 @@ const offenses = [
         text: "Ended federal funding for PBS and NPR.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/ending-taxpayer-subsidization-of-biased-media/"
     },
-    // {
-    //     date: "May 1st, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "May th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "May th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "May 5th, 2025",
+        text: "Ended federal NIH funding of nearly all gain-of-function research in foreign nations, specifically those in \"countries of concern (e.g. China), or in other countries where there is not adequate oversight to ensure that the countries are compliant with United States oversight standards and policies\"",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/improving-the-safety-and-security-of-biological-research/"
+    },
+    {
+         date: "May 5th, 2025",
+         text: "Called for the rapid expansion of pharmaceutical production facilities. This includes commanding the Administrator of the Environmental Protection Agency (EPA) to streamline inspection and review processes for new pharma production sites to \"maximize the timeliness and predictability of agency review."",
+         link: "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/"
+     },
     // {
     //     date: "May th, 2025",
     //     text: "",
