@@ -485,11 +485,21 @@ const offenses = [
          text: "Called for the rapid expansion of pharmaceutical production facilities. This includes commanding the Administrator of the Environmental Protection Agency (EPA) to streamline inspection and review processes for new pharma production sites to \"maximize the timeliness and predictability of agency review."",
          link: "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/"
      },
-    // {
-    //     date: "May th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+     {
+         date: "May 9th, 2025",
+         text: "Directed the federal register to expedite the process of publishing executive orders to enhance Trump's agenda of deregulation.",
+         link: "https://www.whitehouse.gov/presidential-actions/2025/05/increasing-efficiency-at-the-office-of-the-federal-register/"
+     },
+     {
+         date: "May 9th, 2025",
+         text: "Blamed J.B. Pritzker for the stalls on the Brandon Road Interbasin Project, even after the Trump administration withheld federal dollars from the Illinois DNR and made no assurances that they would honor their commitment to provide Illinois with additional funding for the project.",
+         link: "https://www.whitehouse.gov/presidential-actions/2025/05/protecting-the-great-lakes-from-invasive-carp/"
+     },
+     {
+         date: "May 9th, 2025",
+         text: "Directed several agency heads to rescind or otherwise nullify the water utilization provisions of the Energy Policy Act of 1992. Some of the mentioned regulations are around water usage for consumer products like sinks, shower heads, urinals and toilets, etc.",
+         link: "https://www.whitehouse.gov/presidential-actions/2025/05/rescission-of-useless-water-pressure-standards/"
+     },
     // {
     //     date: "May th, 2025",
     //     text: "",
