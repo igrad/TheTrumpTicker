@@ -500,6 +500,11 @@ const offenses = [
          text: "Directed several agency heads to rescind or otherwise nullify the water utilization provisions of the Energy Policy Act of 1992. Some of the mentioned regulations are around water usage for consumer products like sinks, shower heads, urinals and toilets, etc.",
          link: "https://www.whitehouse.gov/presidential-actions/2025/05/rescission-of-useless-water-pressure-standards/"
      },
+     {
+         date: "May 12th, 2025",
+         text: "Announced a mutual 90-day hold on tariffs with China (though with a lingering 10% tariff). China has made no concessions, admissions, or other repentance as demanded by Trump when the tariffs were first introduced, which further adds to the slapstick blunder of a mess that is 47's foreign trade policy.",
+         link: "https://www.whitehouse.gov/presidential-actions/2025/05/modifying-reciprocal-tariff-rates-to-reflect-discussions-with-the-peoples-republic-of-china/"
+     },
     // {
     //     date: "May th, 2025",
     //     text: "",
