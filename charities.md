@@ -51,3 +51,20 @@ Affirmations LGBTQ+ Community Center was founded in 1989 with a mission to provi
 ### [Nova Ukraine](https://novaukraine.org/)
 ![Nova Ukraine](src/images/novaukraine.png)
 Nova Ukraine works diligently to provide humanitarian aid to vulnerable groups and individuals in Ukraine and to raise awareness about Ukraine in the US and throughout the world. We fully support Ukraine in its efforts to build a strong civil society, reform its educational system, and to eliminate corruption.
+
+## May 2025
+### [Ibis Reproductive Health](https://www.ibisreproductivehealth.org/)
+![Ibis](src/images/ibisreproductivehealth.png)
+Ibis drives change through bold, rigorous research and principled partnerships that advance sexual and reproductive autonomy, choices, and health worldwide.
+
+### [The Middle East Children's Alliance](https://mecaforpeace.org/)
+![MECA](src/images/mecaforpeace.jpg)
+The Middle East Children’s Alliance (MECA) works to protect the rights and improve the lives of children in the Middle East through aid, empowerment and education. In the Middle East, MECA provides humanitarian aid, partners with community organizations to run projects for children, and supports income-generation projects. In the US and internationally, MECA raises awareness about the lives of children in the region and encourages meaningful action.
+
+### [SAGE USA](https://sageusa.org/)
+![SAGE USA](src/images/sageusa.png)
+SAGE leads in addressing issues related to lesbian, gay, bisexual, transgender, queer and questioning and other self-identifying members of the community (LGBTQ+) aging. In partnership with its constituents and allies, SAGE works to achieve a high quality of life for LGBTQ+ older people, supports and advocates for their rights, fosters a greater understanding of aging in all communities, and promotes positive images of LGBTQ+ life in later years.
+
+### [The Conservation Lands](https://conservationlands.org/)
+![The Conservation Lands](src/images/conservationlands.png)
+The Conservation Lands Foundation works to protect, restore, and expand the National Conservation Lands through education, advocacy, and partnerships. CLF is the only nonprofit in the country solely dedicated to this mission.
