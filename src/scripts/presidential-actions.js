@@ -481,30 +481,50 @@ const offenses = [
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/improving-the-safety-and-security-of-biological-research/"
     },
     {
-         date: "May 5th, 2025",
-         text: "Called for the rapid expansion of pharmaceutical production facilities. This includes commanding the Administrator of the Environmental Protection Agency (EPA) to streamline inspection and review processes for new pharma production sites to \"maximize the timeliness and predictability of agency review."",
-         link: "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/"
-     },
-     {
-         date: "May 9th, 2025",
-         text: "Directed the federal register to expedite the process of publishing executive orders to enhance Trump's agenda of deregulation.",
-         link: "https://www.whitehouse.gov/presidential-actions/2025/05/increasing-efficiency-at-the-office-of-the-federal-register/"
-     },
-     {
-         date: "May 9th, 2025",
-         text: "Blamed J.B. Pritzker for the stalls on the Brandon Road Interbasin Project, even after the Trump administration withheld federal dollars from the Illinois DNR and made no assurances that they would honor their commitment to provide Illinois with additional funding for the project.",
-         link: "https://www.whitehouse.gov/presidential-actions/2025/05/protecting-the-great-lakes-from-invasive-carp/"
-     },
-     {
-         date: "May 9th, 2025",
-         text: "Directed several agency heads to rescind or otherwise nullify the water utilization provisions of the Energy Policy Act of 1992. Some of the mentioned regulations are around water usage for consumer products like sinks, shower heads, urinals and toilets, etc.",
-         link: "https://www.whitehouse.gov/presidential-actions/2025/05/rescission-of-useless-water-pressure-standards/"
-     },
-     {
-         date: "May 12th, 2025",
-         text: "Announced a mutual 90-day hold on tariffs with China (though with a lingering 10% tariff). China has made no concessions, admissions, or other repentance as demanded by Trump when the tariffs were first introduced, which further adds to the slapstick blunder of a mess that is 47's foreign trade policy.",
-         link: "https://www.whitehouse.gov/presidential-actions/2025/05/modifying-reciprocal-tariff-rates-to-reflect-discussions-with-the-peoples-republic-of-china/"
-     },
+        date: "May 5th, 2025",
+        text: "Called for the rapid expansion of pharmaceutical production facilities. This includes commanding the Administrator of the Environmental Protection Agency (EPA) to streamline inspection and review processes for new pharma production sites to \"maximize the timeliness and predictability of agency review."",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/"
+    },
+    {
+        date: "May 9th, 2025",
+        text: "Directed the federal register to expedite the process of publishing executive orders to enhance Trump's agenda of deregulation.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/increasing-efficiency-at-the-office-of-the-federal-register/"
+    },
+    {
+        date: "May 9th, 2025",
+        text: "Blamed J.B. Pritzker for the stalls on the Brandon Road Interbasin Project, even after the Trump administration withheld federal dollars from the Illinois DNR and made no assurances that they would honor their commitment to provide Illinois with additional funding for the project.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/protecting-the-great-lakes-from-invasive-carp/"
+    },
+    {
+        date: "May 9th, 2025",
+        text: "Directed several agency heads to rescind or otherwise nullify the water utilization provisions of the Energy Policy Act of 1992. Some of the mentioned regulations are around water usage for consumer products like sinks, shower heads, urinals and toilets, etc.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/rescission-of-useless-water-pressure-standards/"
+    },
+    {
+        date: "May 12th, 2025",
+        text: "Announced a mutual 90-day hold on tariffs with China (though with a lingering 10% tariff). China has made no concessions, admissions, or other repentance as demanded by Trump when the tariffs were first introduced, which further adds to the slapstick blunder of a mess that is 47's foreign trade policy.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/modifying-reciprocal-tariff-rates-to-reflect-discussions-with-the-peoples-republic-of-china/"
+    },
+    {
+        date: "May 23rd, 2025",
+        text: "Issued a verbose and self-asserting executive order stating that scientific data and research gathered or used by the government should be transparent and without bias. Additionally, it states \"Where employees produce or use scientific information to inform policy or legal determinations they must use science that comports with the legal standards applicable to those determinations, including when agencies evaluate the realistic or reasonably foreseeable effects of an action.\" That's a wordy way of saying \"the use of any policy-informing data is subject to the whims of executive employees.\"",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/restoring-gold-standard-science/"
+    },
+    {
+        date: "May 23rd, 2025",
+        text: "Called for the expansion of production of many types of uranium (including weapons-grade uranium), increased nuclear energy production, and legislation to support transporting nuclear materials and waste both domestically and abroad.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/reinvigorating-the-nuclear-industrial-base/"
+    },
+    {
+        date: "May 23rd, 2025",
+        text: "Ordered a review of EPA nuclear testing guidelines in cooperation with DOGE team leads, which almost certainly means more lax testing guidelines in keeping with other executive orders surrounding the declared energy crisis.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/reforming-nuclear-reactor-testing-at-the-department-of-energy/"
+    },
+    {
+        date: "May 23rd, 2025",
+        text: "Called for a reform of the nuclear regulatory commission, including all but eliminating the Advisory Committee on Reactor Safeguards (ACRS).",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/05/ordering-the-reform-of-the-nuclear-regulatory-commission/"
+    },
     // {
     //     date: "May th, 2025",
     //     text: "",
@@ -514,9 +534,9 @@ const offenses = [
 
 function addToListOfOffenses(offense) {
     return `<tr>
-            <td>${offense.date}</td>
-            <td>${offense.text} (<a href="${offense.link}" target="_blank" rel="noopener noreferrer">link</a>)</td>
-            </tr>`
+<td>${offense.date}</td>
+<td>${offense.text} (<a href="${offense.link}" target="_blank" rel="noopener noreferrer">link</a>)</td>
+</tr>`
 }
 
 let CurrentNumberDisplayed = 0;
@@ -550,8 +570,8 @@ function add10OffensesToList()
     let listHTML = $(".offenses").html();
     let indexToReach = offenses.length - 1 - CurrentNumberDisplayed - 10;
     for (let index = offenses.length - 1 - CurrentNumberDisplayed;
-        (index >= 0) && (index > indexToReach);
-        index--) {
+    (index >= 0) && (index > indexToReach);
+    index--) {
         listHTML += addToListOfOffenses(offenses[index])
         CurrentNumberDisplayed++;
     }
