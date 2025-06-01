@@ -71,11 +71,11 @@ The Conservation Lands Foundation works to protect, restore, and expand the Nati
 
 ## June 2025
 ### [American Brain Foundation](https://americanbrainfoundation.org/')
-![American Brain Foundation](stc/images/americanbrainfoundation.png)
+![American Brain Foundation](src/images/americanbrainfoundation.png)
 The American Brain Foundation promotes and invests in research across the whole spectrum of brain disease. We believe that when we cure one of these diseases, we will cure many.
 
 ### [Blood:Water](https://bloodwater.org/)
-![Blood:Water](src/images/bloodwater.jpg)
+![Blood:Water](src/images/bloodwater.png)
 Blood:Water is an international nonprofit that partners with African community-driven organizations to end health disparities caused by the HIV/AIDS and water crises.
 
 ### [PFLAG](https://pflag.org/)
