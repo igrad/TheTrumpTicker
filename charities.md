@@ -68,3 +68,20 @@ SAGE leads in addressing issues related to lesbian, gay, bisexual, transgender, 
 ### [The Conservation Lands](https://conservationlands.org/)
 ![The Conservation Lands](src/images/conservationlands.png)
 The Conservation Lands Foundation works to protect, restore, and expand the National Conservation Lands through education, advocacy, and partnerships. CLF is the only nonprofit in the country solely dedicated to this mission.
+
+## June 2025
+### [American Brain Foundation](https://americanbrainfoundation.org/')
+![American Brain Foundation](stc/images/americanbrainfoundation.png)
+The American Brain Foundation promotes and invests in research across the whole spectrum of brain disease. We believe that when we cure one of these diseases, we will cure many.
+
+### [Blood:Water](https://bloodwater.org/)
+![Blood:Water](src/images/bloodwater.jpg)
+Blood:Water is an international nonprofit that partners with African community-driven organizations to end health disparities caused by the HIV/AIDS and water crises.
+
+### [PFLAG](https://pflag.org/)
+![PFLAG](src/images/pflag.png)
+PFLAG's mission is to create a caring, just, and affirming world for LGBTQ+ people and those who love them.
+
+### [Western Environmental Law Center](https://westernlaw.org/)
+![Western Environmental Law Center](src/images/westernlaw.png)
+The Western Environmental Law Center uses the power of the law to foster thriving, resilient western U.S. lands, waters, wildlife, and communities in the face of a changing climate.

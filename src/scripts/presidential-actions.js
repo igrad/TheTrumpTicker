@@ -482,7 +482,7 @@ const offenses = [
     },
     {
         date: "May 5th, 2025",
-        text: "Called for the rapid expansion of pharmaceutical production facilities. This includes commanding the Administrator of the Environmental Protection Agency (EPA) to streamline inspection and review processes for new pharma production sites to \"maximize the timeliness and predictability of agency review."",
+        text: "Called for the rapid expansion of pharmaceutical production facilities. This includes commanding the Administrator of the Environmental Protection Agency (EPA) to streamline inspection and review processes for new pharma production sites to \"maximize the timeliness and predictability of agency review.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/"
     },
     {
