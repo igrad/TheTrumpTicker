@@ -525,8 +525,38 @@ const offenses = [
         text: "Called for a reform of the nuclear regulatory commission, including all but eliminating the Advisory Committee on Reactor Safeguards (ACRS).",
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/ordering-the-reform-of-the-nuclear-regulatory-commission/"
     },
+    {
+        date: "June 7th, 2025",
+        text: "Ordered 2,000+ National Guard personnel to Los Angeles to protect ICE agents from protesters. This is the first time National Guard troops have been deployed for protest deterrence since the 1992 Rodney King riots in LA.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/06/department-of-defense-security-for-the-protection-of-department-of-homeland-security-functions/"
+    },
+    {
+        date: "June 10th, 2025",
+        text: "Deployed 700 US Marines to LA to aid in protest deterrence and protection of ICE agents. This is the first time Marines have been deployed for domestic law enforcement purposes since the 1992 Rodney King riots in LA. (disclaimer: this is a news link, and not an official statement from the White House.)",
+        link: "https://www.reuters.com/world/us/trump-mark-army-milestone-troops-deployed-los-angeles-2025-06-10/"
+    },
     // {
-    //     date: "May th, 2025",
+    //     date: "June th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "June th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "June th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "June th, 2025",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "June th, 2025",
     //     text: "",
     //     link: ""
     // },
