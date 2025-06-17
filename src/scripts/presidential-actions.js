@@ -506,6 +506,11 @@ const offenses = [
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/modifying-reciprocal-tariff-rates-to-reflect-discussions-with-the-peoples-republic-of-china/"
     },
     {
+        date: "May 22nd, 2025",
+        text: "Accepted a $400 million Boeing 747 Jetliner as a gift from Qatar to be used as the new Air Force One. This has raised serious ethical concerns, and has been estimated to cost an additional $1 billion or more in taxpayer dollars to refit it for proper use as Air Force One.",
+        link: "https://www.reuters.com/business/aerospace-defense/us-formally-accepts-luxury-jet-qatar-trump-new-york-times-2025-05-21/"
+    }
+    {
         date: "May 23rd, 2025",
         text: "Issued a verbose and self-asserting executive order stating that scientific data and research gathered or used by the government should be transparent and without bias. Additionally, it states \"Where employees produce or use scientific information to inform policy or legal determinations they must use science that comports with the legal standards applicable to those determinations, including when agencies evaluate the realistic or reasonably foreseeable effects of an action.\" That's a wordy way of saying \"the use of any policy-informing data is subject to the whims of executive employees.\"",
         link: "https://www.whitehouse.gov/presidential-actions/2025/05/restoring-gold-standard-science/"
@@ -532,14 +537,14 @@ const offenses = [
     },
     {
         date: "June 10th, 2025",
-        text: "Deployed 700 US Marines to LA to aid in protest deterrence and protection of ICE agents. This is the first time Marines have been deployed for domestic law enforcement purposes since the 1992 Rodney King riots in LA. (disclaimer: this is a news link, and not an official statement from the White House.)",
+        text: "Deployed 700 US Marines to LA to aid in protest deterrence and protection of ICE agents. This is the first time Marines have been deployed for domestic law enforcement purposes since the 1992 Rodney King riots in LA.",
         link: "https://www.reuters.com/world/us/trump-mark-army-milestone-troops-deployed-los-angeles-2025-06-10/"
     },
-    // {
-    //     date: "June th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "June 15th, 2025",
+        text: "Directed ICE officials to \"do all in their power to achieve the very important goal of delivering the single largest Mass Deportation Program in History.\" For reference, the largest state-run deportation in global history is the 1939-1945 Nazi regime's deportation of Jews, Slavs, and others totalling an estimated 11+ million. In US history specifically, Eisenhower's Operation Wetback in 1954 was credited with up to 1.1 million deportations of Mexican nationals, though that number is likely inflated according to experts.",
+        link: "https://apnews.com/article/trump-ice-deportations-protests-65fa8d64ea12a78a0ee0ebeea008ee4d"
+    },
     // {
     //     date: "June th, 2025",
     //     text: "",
