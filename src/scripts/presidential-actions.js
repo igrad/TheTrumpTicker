@@ -509,7 +509,7 @@ const offenses = [
         date: "May 22nd, 2025",
         text: "Accepted a $400 million Boeing 747 Jetliner as a gift from Qatar to be used as the new Air Force One. This has raised serious ethical concerns, and has been estimated to cost an additional $1 billion or more in taxpayer dollars to refit it for proper use as Air Force One.",
         link: "https://www.reuters.com/business/aerospace-defense/us-formally-accepts-luxury-jet-qatar-trump-new-york-times-2025-05-21/"
-    }
+    },
     {
         date: "May 23rd, 2025",
         text: "Issued a verbose and self-asserting executive order stating that scientific data and research gathered or used by the government should be transparent and without bias. Additionally, it states \"Where employees produce or use scientific information to inform policy or legal determinations they must use science that comports with the legal standards applicable to those determinations, including when agencies evaluate the realistic or reasonably foreseeable effects of an action.\" That's a wordy way of saying \"the use of any policy-informing data is subject to the whims of executive employees.\"",
