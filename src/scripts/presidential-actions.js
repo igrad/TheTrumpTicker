@@ -545,16 +545,16 @@ const offenses = [
         text: "Directed ICE officials to \"do all in their power to achieve the very important goal of delivering the single largest Mass Deportation Program in History.\" For reference, the largest state-run deportation in global history is the 1939-1945 Nazi regime's deportation of Jews, Slavs, and others totalling an estimated 11+ million. In US history specifically, Eisenhower's Operation Wetback in 1954 was credited with up to 1.1 million deportations of Mexican nationals, though that number is likely inflated according to experts.",
         link: "https://apnews.com/article/trump-ice-deportations-protests-65fa8d64ea12a78a0ee0ebeea008ee4d"
     },
-    // {
-    //     date: "June th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "June th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "June 19th, 2025",
+        text: "Extended the Tiktok enforcement delay to September 17, 2025.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/06/further-extending-the-tiktok-enforcement-delay/"
+    },
+    {
+        date: "June 20th, 2025",
+        text: "Called for a special prosecutor to investigate Biden's victory in the 2020 presidential election in a social media post.",
+        link: "https://apnews.com/article/trump-special-prosecutor-2020-biden-election-194b3d49f49b0345f77873fc34b4dcc5"
+    },
     // {
     //     date: "June th, 2025",
     //     text: "",
