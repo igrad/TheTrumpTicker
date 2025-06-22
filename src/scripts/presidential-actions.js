@@ -555,11 +555,11 @@ const offenses = [
         text: "Called for a special prosecutor to investigate Biden's victory in the 2020 presidential election in a social media post.",
         link: "https://apnews.com/article/trump-special-prosecutor-2020-biden-election-194b3d49f49b0345f77873fc34b4dcc5"
     },
-    // {
-    //     date: "June th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "June 21st, 2025",
+        text: "Dropped ordinance on three major Iranian nuclear processing plants, including Fordow, opening up the can of worms that the United Stated only recently closed in the middle east.",
+        link: "https://www.whitehouse.gov/articles/2025/06/what-they-are-saying-president-trumps-display-of-peace-through-strength/"
+    },
     // {
     //     date: "June th, 2025",
     //     text: "",
