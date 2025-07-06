@@ -556,12 +556,37 @@ const offenses = [
         link: "https://apnews.com/article/trump-special-prosecutor-2020-biden-election-194b3d49f49b0345f77873fc34b4dcc5"
     },
     {
+        date: "June 20th, 2025",
+        text: "Signed S.J. Res. 31 into law, which provides congressional disapproval (aka overrides) the EPA's reclassification of several Major Sources to Area Sources.",
+        link: "https://www.whitehouse.gov/briefings-statements/2025/06/the-president-signed-into-law-s-j-res-13-and-s-j-res-31/"
+    },
+    {
         date: "June 21st, 2025",
         text: "Dropped ordinance on three major Iranian nuclear processing plants, including Fordow, opening up the can of worms that the United Stated only recently closed in the middle east.",
         link: "https://www.whitehouse.gov/articles/2025/06/what-they-are-saying-president-trumps-display-of-peace-through-strength/"
     },
+    {
+        date: "June 30th, 2025",
+        text: "Issued a memoranda directing several agencies to further simplify and deregulate the application process for the extraction and exploitation of critical minerals and materials used in energy production processes.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/06/simplifying-the-funding-of-energy-infrastructure-and-critical-mineral-and-material-projects/"
+    },
+    {
+        date: "June 30th, 2025",
+        text: "Used the Caesar Act to waive sanctions imposed on Syria following its change to new leadership under President Ahmed al-Sharaa, a former ally of Al Qaeda who welcomed foreign jihadists, planned and directed suicide bombers to attack military outposts, and vowed to create an Islamic state.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/06/providing-for-the-revocation-of-syria-sanctions/"
+    },
+    {
+        date: "June 30th, 2025",
+        text: "Directed many agency heads to identify policies and procedures regarding the United States' funding and financial aide to Cuba, calling for more direct funding to the people of Cuba and less funding of its government. (Speculation: this will lead to abject poverty in Cuba in the coming years, at which point the US federal government will \"step in\" to assist.)",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/06/national-security-presidential-memorandum-nspm-5/"
+    },
+    {
+        date: "July 3rd, 2025",
+        text: "Announced the Make America Beautiful Again initiative (only months after revoking and rescinding many policies that protect our planet) which aims to increase tourism of national parks, increase the associated fees for non-US residents at national parks, and explicitly outlines granting \"American residents preferential treatment with respect to any remaining recreational access rules, including permitting or lottery rules\". This executive order also rescinds Biden's memorandum \"Promoting Diversity and Inclusion in Our National Parks, National Forests, and Other Public Lands and Waters\" (<a href=\"https://www.federalregister.gov/documents/2017/01/19/2017-01383/promoting-diversity-and-inclusion-in-our-national-parks-national-forests-and-other-public-lands-and\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>) which mostly just directed agency heads to diversify their work force and provide ample opportunity for people of diverse background to work in our public parks.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/making-america-beautiful-again-by-improving-our-national-parks/"
+    },
     // {
-    //     date: "June th, 2025",
+    //     date: "July th, 2025",
     //     text: "",
     //     link: ""
     // },
