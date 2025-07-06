@@ -85,3 +85,21 @@ PFLAG's mission is to create a caring, just, and affirming world for LGBTQ+ peop
 ### [Western Environmental Law Center](https://westernlaw.org/)
 ![Western Environmental Law Center](src/images/westernlaw.png)
 The Western Environmental Law Center uses the power of the law to foster thriving, resilient western U.S. lands, waters, wildlife, and communities in the face of a changing climate.
+
+## July 2025
+### [HRI](https://hrionline.org/)
+![HRI](src/images/hrionline.png)
+Human Rights Initiative of North Texas (HRI) provides legal and support services to refugees and immigrants who have suffered human rights abuses, advocates for justice and promotes international human rights.
+
+### [Coalition for Humane Immigrant Rights (CHIRLA)](https://chirla.org/)
+![chirla](src/images/chirla.png)
+For more than 35 years, the Coalition for Humane Immigrant Rights (CHIRLA) has empowered immigrants to push policies that promote freedom of movement, full human rights, and the vigorous civic action that strengthens this democracy.
+
+### [National Parks Conservation Association (NPCA)](https://npca.org/)
+![npca](src/images/npca.png)
+The mission of the National Parks Conservation Association (NPCA) is to protect and enhance America's National Parks for present and future generations.
+
+### [Brady United](https://bradyunited.org/)
+![Brady United](src/images/bradyunited.png)
+Brady is dedicated to creating an America free from gun violence, where all Americans are safe at home, at school, at work, and in their communities.
+
