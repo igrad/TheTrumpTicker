@@ -103,3 +103,19 @@ The mission of the National Parks Conservation Association (NPCA) is to protect 
 ![Brady United](src/images/bradyunited.png)
 Brady is dedicated to creating an America free from gun violence, where all Americans are safe at home, at school, at work, and in their communities.
 
+## August 2025
+### [Organization for Autism Research](https://researchautism.org)
+![OAR](src/images/researchautism.png)
+OAR's programs revolve around funding new research and disseminating evidence-based information.
+
+### [Society of Hispanic Professional Engineers](https://www.shpe.org)
+![SHPE](src/images/shpe.png)
+Society of Hispanic Professional Engineers changes lives by empowering the hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support, and development.
+
+### [Latinitas](https://www.latinitasonline.org)
+![Latinitas](src/images/latinitasonline.png)
+Latinitas is a 501c(3) organization focused on empowering girls and their communities through culturally relevant education.
+
+### [Action Against Hunger](https://www.actionagainsthunger.org)
+![actionagainsthunger](src/images/actionagainsthunger.png)
+Action Against Hunger is a global humanitarian organization that takes decisive action against the causes and effects of hunger.

@@ -585,8 +585,78 @@ const offenses = [
         text: "Announced the Make America Beautiful Again initiative (only months after revoking and rescinding many policies that protect our planet) which aims to increase tourism of national parks, increase the associated fees for non-US residents at national parks, and explicitly outlines granting \"American residents preferential treatment with respect to any remaining recreational access rules, including permitting or lottery rules\". This executive order also rescinds Biden's memorandum \"Promoting Diversity and Inclusion in Our National Parks, National Forests, and Other Public Lands and Waters\" (<a href=\"https://www.federalregister.gov/documents/2017/01/19/2017-01383/promoting-diversity-and-inclusion-in-our-national-parks-national-forests-and-other-public-lands-and\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>) which mostly just directed agency heads to diversify their work force and provide ample opportunity for people of diverse background to work in our public parks.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/07/making-america-beautiful-again-by-improving-our-national-parks/"
     },
+    {
+        date: "July 7th, 2025",
+        text: "Following the passage of the abysmally named \"One Big Beautiful Bill\" Act, called on the Secretary of the Treasury to eliminate all production and investment tax credits for clean and renewable energy sources like wind and solar.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/ending-market-distorting-subsidies-for-unreliable-foreign%e2%80%91controlled-energy-sources/"
+    },
+    {
+        date: "July 17th, 2025",
+        text: "Exempted 8 Taconite iron ore processing facilities from the \"Taconite Rule\" - a ruling pursuant to the Clean Air Act - which placed emissions-control requirements on such facilities.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-iron-ore-processing-security/"
+    },
+    {
+        date: "July 17th, 2025",
+        text: "Exempted 53 chemical manufacturing facilities from the HON Rule, which placed emissions-control requirements on such facilities.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security/"
+    },
+    {
+        date: "July 17th, 2025",
+        text: "Exempted 9 coal-fired power plants from the \"National Emissions Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units Review of the Residual Risk and Technology Review\", which placed emissions-control requirements on such facilities.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/regulatory-relief-for-certain-stationary-sources-to-further-promote-american-energy/"
+    },
+    {
+        date: "July 17th, 2025",
+        text: "Exempted 41 commercial sterilization facilities from the \"EtO Rule\", which placed emissions-control requirements on such facilities.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-security-with-respect-to-sterile-medical-equipment/"
+    },
+    {
+        date: "July 23rd, 2025",
+        text: "In a bizarre yet on-brand executive order, declared that the federal government shall not procure AI models that promote or include \"woke\" practices, such as promoting or informing about concepts like transgenderism, DEI, critical race theory, or systemic racism.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/"
+    },
+    {
+        date: "July 23rd, 2025",
+        text: "Launched an initiative to provide grants and funding to AI mega-startups, create categorical exclusions to environmental regulations for qualifying AI projects, and expedite the review and permit processes for such projects.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/"
+    },
+    {
+        date: "July 23rd, 2025",
+        text: "Called for the creation of the American AI Exports Program to accelerate American AI dominance.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/"
+    },
+    {
+        date: "July 24th, 2025",
+        text: "Called on several agency heads to impose a number of broad changes to how homeless people are treated, including stricter enforcement or adoption of policies to imprison more homeless people, reduce federal aid dollars to harm reduction and safe consumption programs, and reprioritizing CCBHC care to focus on short-term bandaid fixes instead of long-term solutions for homeless people and people suffering from addiction or substance abuse. (Anecdotal: mental health professionals have called this a \"butchering of the system\". This is about the furthest you can get from a \"listen to the experts\" approach.)",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/ending-crime-and-disorder-on-americas-streets/"
+    },
+    {
+        date: "July 30th, 2025",
+        text: "Imposed an additional 40% tariff on Brazilian imports. This does, however, include a lengthy list of exceptions, so it's hard to say what actually <i>is</i> subject to tariffs.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/addressing-threats-to-the-us/"
+    },
+    {
+        date: "July 30th, 2025",
+        text: "Set a 50% import tariff on copper and copper-derivative products, save for a handful of exceptions.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/adjusting-imports-of-copper-into-the-united-states/"
+    },
+    {
+        date: "July 30th, 2025",
+        text: "Lifted exemptions and imposed additional fees and duties on international postal shipments, some of which include additional fees of up to $200 USD.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/"
+    },
+    {
+        date: "July 31st, 2025",
+        text: "Raised or increased several tariff rates by 10-40% on all imported goods (save for exemptions).",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/"
+    },
+    {
+        date: "July 31st, 2025",
+        text: "Raised existing tariffs on Canadian imports from 25% to 35%, and imposed a new 40% tariff on items originating from Mexico that were routed through other nations to evade US tariffs on Mexican products.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/07/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border-9350/"
+    },
     // {
-    //     date: "July th, 2025",
+    //     date: "August th, 2025",
     //     text: "",
     //     link: ""
     // },

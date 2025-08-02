@@ -28,7 +28,7 @@ $(document).ready(function() {
         }
     });
 
-    $("#offenses-more").click(function() {
+    $("#offenses-more span").click(function() {
         add10OffensesToList();
         setMoreText();
     });

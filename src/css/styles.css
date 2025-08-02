@@ -178,6 +178,7 @@ body {
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
+    user-select: none;
 }
 
 
@@ -188,6 +189,13 @@ footer {
     font-size: 0.85rem;
     margin-top: 20px;
     color: #D1D4C9;
+    position: relative;
+    user-select: none;
+}
+
+footer p {
+    position: relative;
+    z-index: 99;
 }
 
 footer a {
@@ -199,9 +207,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
-#invertocat {
-    width: 1.5em;
-    vertical-align: bottom;
+#Bernie {
+    height: 100px;
+    max-height: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    z-index: 0;
+    opacity: 0.5;
 }
 
 /* Mobile responsiveness */

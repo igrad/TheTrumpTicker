@@ -1,5 +1,5 @@
-let subtextCycleTime_ms = 4000;
-let subtextFadeTime_ms = 500;
+let subtextCycleTime_ms = 6000;
+let subtextFadeTime_ms = 750;
 
 // Check that these fit into the max-width css constraint
 const subtextOptions = [
