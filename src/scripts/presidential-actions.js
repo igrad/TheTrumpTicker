@@ -657,7 +657,7 @@ const offenses = [
     },
     {
         date: "August 11th, 2025",
-        text: "Declared a state of emergency in Washington D.C. This coming after D.C. hit a 30-year low for violent crime rates (<a href=\"https://www.justice.gov/usao-dc/pr/violent-crime-dc-hits-30-year-low\" target=\"_blank\" rel=\"noopener noreferrer\">source</a>(https://www.justice.gov/usao-dc/pr/violent-crime-dc-hits-30-year-low))",
+        text: "Declared a state of emergency in Washington D.C. This coming after D.C. hit a 30-year low for violent crime rates (<a href=\"https://www.justice.gov/usao-dc/pr/violent-crime-dc-hits-30-year-low\" target=\"_blank\" rel=\"noopener noreferrer\">source</a>)",
         link: "https://www.whitehouse.gov/presidential-actions/2025/08/declaring-a-crime-emergency-in-the-district-of-columbia/"
     },
     {
