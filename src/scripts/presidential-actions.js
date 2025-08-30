@@ -670,11 +670,11 @@ const offenses = [
         text: "Revoked Executive Order 14036 \"Promoting Competition in the American Economy\" (July 9, 2021) (<a href=\"https://www.federalregister.gov/documents/2021/07/14/2021-15069/promoting-competition-in-the-american-economy\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>), which established the White House Competition Council to review and act on unfair business competition practices in the nation.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/"
     },
-    // {
-    //     date: "August th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "August 25th, 2025",
+        text: "Directed the AG and DOJ to more aggressively prosecute cases involving desecration of the American flag. To make one thing clear, this executive order did not, at any point, mention criminalizing the desecration of the flag in accordance with freedom of expression, nor did it attempt to add or modify punitive measures for such legal acts. It directs the AG to prioritize the enforcement of applicable laws in cases where flag desecration was done unrelated to expression, such as hate crimes, illegal discrimination, or other violations of Americans' civil rights. Notably, this EO also directs several agency heads (state, AG, Homeland Security) to deny or to revoke visas and other such residency permits from foreign individuals who desecrate the American flag so long as said desecration is not being done by an American citizen excersizing their right to freedom of expression.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/08/prosecuting-burning-of-the-american-flag/"
+    },
     // {
     //     date: "August th, 2025",
     //     text: "",
