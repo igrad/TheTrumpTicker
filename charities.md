@@ -119,3 +119,21 @@ Latinitas is a 501c(3) organization focused on empowering girls and their commun
 ### [Action Against Hunger](https://www.actionagainsthunger.org)
 ![actionagainsthunger](src/images/actionagainsthunger.png)
 Action Against Hunger is a global humanitarian organization that takes decisive action against the causes and effects of hunger.
+
+## September 2025
+### [Ron Brown Scholarship Program](https://www.ronbrown.org)
+![Ron Brown](src/images/ronbrown.png)
+The Ron Brown Scholar Program is dedicated to supporting and nurturing future leaders through edfucation, mentorship, and community engagement.
+
+### [Autism New Jersey](https://www.autismnj.org)
+![Autism New Jersey](src/images/autismnj.png)
+Autism New Jersey drives statewide change and creates connections through compassionate support, expert guidance, and a deep commitment to an autism-friendly New Jersey.
+
+### [Water for South Sudan](https://www.waterforsouthsudan.org)
+![Water for South Sudan](src/images/waterforsouthsudan.png)
+Water for South Sudan works to deliver sustainable quality-of-life services to and with the people of South Sudan by efficiently providing access to clean, safe water, and improving hygiene and sanitation practices in areas of great need.
+
+### [Point of Pride](https://www.pointofpride.org)
+![Point of Pride](src/images/pointofpride.png)
+Point of Pride provides financial aid and direct support to trans and gender diverse people in need of health and wellness care.
+

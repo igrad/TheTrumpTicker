@@ -667,7 +667,7 @@ const offenses = [
     },
     {
         date: "August 13th, 2025",
-        text: "Revoked Executive Order 14036 \"Promoting Competition in the American Economy\" (July 9, 2021) (<a href=\"https://www.federalregister.gov/documents/2021/07/14/2021-15069/promoting-competition-in-the-american-economy\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>), which established the White House Competition Council to review and act on unfair business competition practices in the nation.",
+        text: "Revoked Executive Order 14036 \"Promoting Competition in the American Economy\" (July 9, 2021) (<a href=\"https://www.federalregister.gov/documents/2021/07/14/2021-15069/promoting-competition-in-the-american-economy#page-\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>), which established the White House Competition Council to review and act on unfair business competition practices in the nation.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/"
     },
     {
