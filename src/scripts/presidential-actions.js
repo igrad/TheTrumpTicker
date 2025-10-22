@@ -675,21 +675,76 @@ const offenses = [
         text: "Directed the AG and DOJ to more aggressively prosecute cases involving desecration of the American flag. To make one thing clear, this executive order did not, at any point, mention criminalizing the desecration of the flag in accordance with freedom of expression, nor did it attempt to add or modify punitive measures for such legal acts. It directs the AG to prioritize the enforcement of applicable laws in cases where flag desecration was done unrelated to expression, such as hate crimes, illegal discrimination, or other violations of Americans' civil rights. Notably, this EO also directs several agency heads (state, AG, Homeland Security) to deny or to revoke visas and other such residency permits from foreign individuals who desecrate the American flag so long as said desecration is not being done by an American citizen excersizing their right to freedom of expression.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/08/prosecuting-burning-of-the-american-flag/"
     },
-    // {
-    //     date: "August th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "August th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "August th, 2025",
-    //     text: "",
-    //     link: ""
-    // },
+    {
+        date: "September 5th, 2025",
+        text: "Ominously granted the title of Department of War to the Department of Defense.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/restoring-the-united-states-department-of-war/"
+    },
+    {
+        date: "September 15th, 2025",
+        text: "Mobilized the National Guard to occupy Memphis, Tennessee \"at the request of state and local leaders\".",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/restoring-law-and-order-in-memphis/"
+    },
+    {
+        date: "September 16th, 2025",
+        text: "Further extended the TikTok enforcement delay",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/further-extending-the-tiktok-enforcement-delay-9dde/"
+    },
+    {
+        date: "September 19th, 2025",
+        text: "Implemented the \"Gold Card\", which allows foreign nationals to purchase an expedited US VISA approval process US for $1 million USD if purchased privately, or $2 million USD if purchased via a corporation or business.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/the-gold-card/"
+    },
+    {
+        date: "September 19th, 2025",
+        text: "Implemented a program to essentially require a $100,000 USD deposit to accompany H1b visa applications. Applications that do not include this sum are to be stalled or ignored completely, per the executive order.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/restriction-on-entry-of-certain-nonimmigrant-workers/"
+    },
+    {
+        date: "September 22th, 2025",
+        text: "Designated Antifa as a militaristic terror organization, despite it not being an organization by any definition.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/designating-antifa-as-a-domestic-terrorist-organization/"
+    },
+    {
+        date: "September 25th, 2025",
+        text: "Placed the US-based TikTok servers, code, and more under the control of a US-based joint venture where it will, allegedly, be subject to more strict security guidelines to protect American consumers' data from exploitation by a foreign adversary.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/saving-tiktok-while-protecting-national-security/"
+    },
+    {
+        date: "September 25th, 2025",
+        text: "More fascist rambling about how Antifa is an underground organization with significant money-funneling streams aiming to persecute white, Christian families.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/countering-domestic-terrorism-and-organized-political-violence/"
+    },
+    {
+        date: "September 25th, 2025",
+        text: "Called for increased use of the death penalty \"in all appropriate cases\" in the District of Columbia.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/enforcing-the-death-penalty-laws-in-the-district-of-columbia-to-deter-and-punish-the-most-heinous-crimes/"
+    },
+    {
+        date: "September 29th, 2025",
+        text: "Established a defense pact with Qatar, promising full-force retribution against anyone who may attack Qatar. This coming after Trump accepted a Boeing 747 jet from Qatar in May 2025 for use as the new Air Force One.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/assuring-the-security-of-the-state-of-qatar/"
+    },
+    {
+        date: "September 29th, 2025",
+        text: "Established a 10% tariff on softwood timer and lumber (typically used in construction), and a 25% tariff on certain upholstered wooden products.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/09/adjusting-imports-of-timber-lumber-and-their-derivative-products-into-the-united-states/"
+    },
+    {
+        date: "October 4th, 2025",
+        text: "Deployed the national guard to Illinois, specifically Chicago and its vast surrounding suburbs, and enabled them to perform ICE's duties. This was done despite the repeated and emphatic opposition of Illinois Governer Pritzker.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/10/department-of-war-security-for-the-protection-of-federal-personnel-and-property-in-illinois/"
+    },
+    {
+        date: "October 14th, 2025",
+        text: "Proclaimed October 14th as a National Day of Remembrance for Charlie Kirk who was assassinated earlier this year. Kirk will be most commonly remembered for his founding of Turning Point USA, as a Trump bootlicker, and as a profoundly bigoted and uninformed public speaker with convictions as sturdy as the Nazi flags likely found in his basement.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/10/national-day-of-remembrance-for-charlie-kirk/"
+    },
+    {
+        date: "October 18th, 2025",
+        text: "While The Trump Ticker does try to keep content pertinent to official acts of the office of the President for Trump's second term, this is an exception worth making.\nPosted a video to Truth depicting Trump wearing a crown while flying a jet fighter and dumping feces over No Kings protesters. This link goes directly to the Truth post. This is perhaps the single most juvenile act any sitting president has committed.",
+        link: "https://truthsocial.com/@realDonaldTrump/posts/115398251623299921"
+    },
 ]
 
 function addToListOfOffenses(offense) {
