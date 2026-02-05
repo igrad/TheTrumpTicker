@@ -1,3 +1,64 @@
+function addToListOfOffenses(offense) {
+    return `<tr>
+<td>${offense.date}</td>
+<td>${offense.text} (<a href="${offense.link}" target="_blank" rel="noopener noreferrer">link</a>)</td>
+</tr>`
+}
+
+let CurrentNumberDisplayed = 0;
+
+let moreTextOptions = [
+    "More?!",
+    "Of course there's more...",
+    "Even more...",
+    "Unsurprisingly, there's more...",
+    "There's always more...",
+    "It just never ends, does it?",
+    "Sorry, but there's more...",
+    "But wait, there's more!"
+]
+
+let lastMoreTextIndex = -1;
+function setMoreText() {
+    let randomMoreTextIndex = lastMoreTextIndex;
+    while (randomMoreTextIndex == lastMoreTextIndex) {
+        randomMoreTextIndex = Math.floor(Math.random() * moreTextOptions.length);
+    }
+
+    let randomMoreText = moreTextOptions[randomMoreTextIndex];
+    $("#offenses-more span").text(randomMoreText);
+
+    lastMoreTextIndex = randomMoreTextIndex;
+}
+
+function add10OffensesToList()
+{
+    let listHTML = $(".offenses").html();
+    let indexToReach = offenses.length - 1 - CurrentNumberDisplayed - 10;
+    for (let index = offenses.length - 1 - CurrentNumberDisplayed;
+    (index >= 0) && (index > indexToReach);
+    index--) {
+        listHTML += addToListOfOffenses(offenses[index])
+        CurrentNumberDisplayed++;
+    }
+
+    $(".offenses").html(listHTML)
+    if(CurrentNumberDisplayed == offenses.length) {
+        $("#offenses-more").css("display", "none");
+    }
+}
+
+function addAllOffensesToList()
+{
+    let listHTML = ""
+    for (let index = offenses.length - 1; index > 0; index--) {
+        listHTML += addToListOfOffenses(offenses[index])
+    }
+
+    $(".offenses").html(listHTML)
+    $("#offenses-more").css("display", "none");
+}
+
 // Set the list of offenses
 const offenses = [
     {
@@ -737,73 +798,103 @@ const offenses = [
     },
     {
         date: "October 14th, 2025",
-        text: "Proclaimed October 14th as a National Day of Remembrance for Charlie Kirk who was assassinated earlier this year. Kirk will be most commonly remembered for his founding of Turning Point USA, as a Trump bootlicker, and as a profoundly bigoted and uninformed public speaker with convictions as sturdy as the Nazi flags likely found in his basement.",
+        text: "Proclaimed October 14th as a National Day of Remembrance for Charlie Kirk who was assassinated earlier this year.",
         link: "https://www.whitehouse.gov/presidential-actions/2025/10/national-day-of-remembrance-for-charlie-kirk/"
     },
     {
         date: "October 18th, 2025",
-        text: "While The Trump Ticker does try to keep content pertinent to official acts of the office of the President for Trump's second term, this is an exception worth making.\nPosted a video to Truth depicting Trump wearing a crown while flying a jet fighter and dumping feces over No Kings protesters. This link goes directly to the Truth post. This is perhaps the single most juvenile act any sitting president has committed.",
+        text: "While The Trump Ticker does try to keep content pertinent to official acts of the office of the President for Trump's second term, this is an exception worth making.\nPosted a video to Truth depicting Trump wearing a crown while flying a jet fighter and dumping feces over No Kings protesters. This link goes directly to the Truth post.",
         link: "https://truthsocial.com/@realDonaldTrump/posts/115398251623299921"
     },
+    {
+        date: "November 4, 2025",
+        text: "More China tarriff shenanigans.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-reciprocal-tariff-rates-consistent-with-the-economic-and-trade-arrangement-between-the-united-states-and-the-peoples-republic-of-china/"
+    },
+    {
+        date: "November 7, 2025",
+        text: "Declared the week of November 2 through November 8 to be \"Anti-Communism Week\". The executive order includes a smattering of language conflating communism with democratic socialism and social justice, and is strongly reminiscent of cold-war era language.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/11/anti-communism-week-2025/"
+    },
+    {
+        date: "November 13, 2025",
+        text: "Directed DHHS and CPS to give preferential treatment to prospective religious adopters. Yes, really. It also calls for the use of AI tools to match adopters with children in the foster system.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/11/fostering-the-future-for-american-children-and-families/"
+    },
+    {
+        date: "November 14, 2025",
+        text: "More tariff nonsense. This time on agricultural products.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-the-scope-of-the-reciprocal-tariff-with-respect-to-certain-agricultural-products/"
+    },
+    {
+        date: "November 24, 2025",
+        text: "Founded the \"Genesis Mission\" which, in summary, is federally-funded AI modelling on employing federal scientific data with the goal of solving all of humanities problems with AI.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/"
+    },
+    {
+        date: "December 11, 2025",
+        text: "This EO includes the following in its opening paragraph:<br><i>\"United States AI companies must be free to innovate without cumbersome regulation.  But excessive State regulation thwarts this imperative.\"</i><br>It establishes an AI litigation task force, sets forth guidelines to evaluate existing state AI laws for compliance with this new initiative, and provides for cuts or total elimination of federal dollars to states whose AI laws do not conform with this initiative. This further underscores the Trump administrations rampant disregard for AI concerns in a large number of sectors in exchange for short-term investor kickbacks.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/"
+    },
+    {
+        date: "December 15, 2025",
+        text: "Designated illicit fentanyl (a.k.a. fentanyl manufactured or distributed with the explicit purpose of violating federal law) and its precursors to be a weapon of mass destruction (WMD). This includes a number of baser, 'precursor' chemicals that are used to manufacture a number of other, safe, pharmaceuticals, such as Piperidone.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/12/designating-fentanyl-as-a-weapon-of-mass-destruction/"
+    },
+    {
+        date: "December 18, 2025",
+        text: "The president wants to put nukes in space. Also to land humans on the moon again by 2028 which is actually really cool, but for very uncool reasons.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/12/ensuring-american-space-superiority/"
+    },
+    {
+        date: "December 29, 2025",
+        text: "More tariff blah-blah, this time explicitly in Israel's interests.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/12/to-implement-the-united-states-israel-agreement-on-trade-in-agricultural-products-and-for-other-purposes/"
+    },
+    {
+        date: "December 31, 2025",
+        text: "Timber and lumber tariff adjustments.",
+        link: "https://www.whitehouse.gov/presidential-actions/2025/12/amendments-to-adjusting-imports-of-timber-lumber-and-their-derivative-products-into-the-united-states/"
+    },
+    {
+        date: "January 3, 2026",
+        text: "Launched a special operation (a boots-on-ground invasion, colloquially) in Venezuela to capture and exfiltrate president Maduro without a formal declaration of war.",
+        link: "https://apnews.com/article/trump-maduro-venezuela-presidential-palace-blowtorches-7969152ae48510003fe9cbde92f3c102"
+    },
+    {
+        date: "January 7, 2026",
+        text: "Withdrew the United States from a number of international organizations, conventions, and treaties. Everything from mutual-peace treaties to emissions control accords.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/withdrawing-the-united-states-from-international-organizations-conventions-and-treaties-that-are-contrary-to-the-interests-of-the-united-states/"
+    },
+    {
+        date: "January 9, 2026",
+        text: "Money, money, money, oil, give me money.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/"
+    },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
 ]
 
-function addToListOfOffenses(offense) {
-    return `<tr>
-<td>${offense.date}</td>
-<td>${offense.text} (<a href="${offense.link}" target="_blank" rel="noopener noreferrer">link</a>)</td>
-</tr>`
-}
-
-let CurrentNumberDisplayed = 0;
-
-let moreTextOptions = [
-    "More?!",
-    "Of course there's more...",
-    "Even more...",
-    "Unsurprisingly, there's more...",
-    "There's always more...",
-    "It just never ends, does it?",
-    "Sorry, but there's more...",
-    "But wait, there's more!"
-]
-
-let lastMoreTextIndex = -1;
-function setMoreText() {
-    let randomMoreTextIndex = lastMoreTextIndex;
-    while (randomMoreTextIndex == lastMoreTextIndex) {
-        randomMoreTextIndex = Math.floor(Math.random() * moreTextOptions.length);
-    }
-
-    let randomMoreText = moreTextOptions[randomMoreTextIndex];
-    $("#offenses-more span").text(randomMoreText);
-
-    lastMoreTextIndex = randomMoreTextIndex;
-}
-
-function add10OffensesToList()
-{
-    let listHTML = $(".offenses").html();
-    let indexToReach = offenses.length - 1 - CurrentNumberDisplayed - 10;
-    for (let index = offenses.length - 1 - CurrentNumberDisplayed;
-    (index >= 0) && (index > indexToReach);
-    index--) {
-        listHTML += addToListOfOffenses(offenses[index])
-        CurrentNumberDisplayed++;
-    }
-
-    $(".offenses").html(listHTML)
-    if(CurrentNumberDisplayed == offenses.length) {
-        $("#offenses-more").css("display", "none");
-    }
-}
-
-function addAllOffensesToList()
-{
-    let listHTML = ""
-    for (let index = offenses.length - 1; index > 0; index--) {
-        listHTML += addToListOfOffenses(offenses[index])
-    }
-
-    $(".offenses").html(listHTML)
-    $("#offenses-more").css("display", "none");
-}
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
