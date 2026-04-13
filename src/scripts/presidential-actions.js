@@ -871,6 +871,90 @@ const offenses = [
         text: "Money, money, money, oil, give me money.",
         link: "https://www.whitehouse.gov/presidential-actions/2026/01/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/"
     },
+    {
+        date: "January 14, 2026",
+        text: "Directed the Secretary of Commerce to pursue negotiations, issue new or amended regulations, and suspend existing regulations to \"address the threatened impairment of the national security with respect to imports of [processed critical minerals and their derivative products] PCMDPs from any country.\" The rationale is that such minerals and derivatives are critical elements of innumerable digital components - everything from radios to flight recorders."
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/"
+    },
+    {
+        date: "January 14, 2026",
+        text: "Imposed an additional 25 percent tariff on semiconductors to the United States (with a number of exceptions with regard to the application of such goods)."
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/"
+    },
+        date: "January 27, 2026",
+        text: "Attempted to blame the state and local governments of Los Angeles, California for the delays and difficulties to rebuild the area, citing \"malaise\" in regulations and regulators.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/addressing-state-and-local-failures-to-rebuild-los-angeles-after-wildfire-disasters/"
+    },
+    {
+        date: "January 29, 2026",
+        text: "At the end of a long-winded rant about how Christo-fascism is an American tradition of excellence, this proclamation of celebration for America's 250th birth year ends with an invitation for \"the world to come to our shores to experience the splendor, warmth, and hospitality of America.\" This following a year of ICEstapo beatings, deportations, and murders.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/year-of-celebration-and-rededication-2026/"
+    },
+    {
+        date: "January 29, 2026",
+        text: "Declared Cuba to be a national threat to the United States, and announced an imposition of tariffs on any nation that interacts economically with Cuba.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba/"
+    },
+    {
+        date: "February 6, 2026",
+        text: "Provided for an additional 80,000 metric tons of lean beef cuts to be imported from Argentina after lamenting the trials and tribulations of American cattle ranchers.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/ensuring-affordable-beef-for-the-american-consumer/"
+    },
+    {
+        date: "February 6, 2026",
+        text: "Made way for overfishing in sections of the Atlantic by revoking Proclamation 10287, which imposed a ban on fishing in Northeast Canyons and Seamounts Marine National Monument.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/unleashing-american-commercial-fishing-in-the-atlantic/"
+    },
+    {
+        date: "February 6, 2026",
+        text: "Imposed tariffs on nations interacting economically with Iran.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/addressing-threats-to-the-united-states-by-the-government-of-iran/"
+    },
+    {
+        date: "February 6, 2026",
+        text: "Terminated tariffs on India, which were originally imposed for their perceived support of Russia via India's purchase of Russian oil.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation-04b2/"
+    },
+    {
+        date: "February 20, 2026",
+        text: "Cancelled a number of tariffs affecting Mexico and China. This followed the Supreme Court rendering its judgment that Trump's tariff policy is unconstitutional on the same day.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/"
+    },
+    {
+        date: "February 20, 2026",
+        text: "Suspended the imposed tariffs on imports from previous executive orders of this administration.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/"
+    },
+    {
+        date: "February 20, 2026",
+        text: "Imposed a 10% \"\"\"import surcharge\"\"\" (definitely not a tariff) on a huge number of goods, claiming that the United States operates and facilitates international trade at a huge deficit.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/"
+    },
+    {
+        date: "February 22, 2026",
+        text: "Proclaimed February 22 to be \"National Angel Family Day\" - Angel Families being those left behind by those killed by \"criminal illegal aliens and ... those taken by the fentanyl epidemic\". Hopefully the next new day of remembrance will be for the innocent victims of police brutality, or the victims of regressive and unscientific policies inhibiting womens' bodily autonomy, or perhaps even for the victims of Epstein and his well-known accomplices.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/02/national-angel-family-day-2026/"
+    },
+    {
+        date: "February 28, 2026",
+        text: "The US and Israel launched a joint airstrike on Iran, targeting military and government sites and assassinating Supreme Leader Ali Khamenei and numerous other Iranian officials while also inflicting civilian casualties. This coming from the \"No New Wars\" president. On the same day, US forces struck the Shajareh Tayyebeh elementary school for girls in Minab, Iran, killing more than 170 children and staff.",
+        link: "https://apnews.com/article/iran-us-explosion-tehran-c2f11247d8a66e36929266f2c557a54c"
+    },
+    {
+        date: "March 13, 2026",
+        text: "Directed multiple agency heads to investigate avenues to reduce the costs associated with new home construction, including the suspension of enforcement of economically-minded construction restrictions such as energy efficient materials and relaxed restrictions regarding construction with respect to wetlands, lakes, and rivers.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/03/removing-regulatory-barriers-to-affordable-home-construction/"
+    },
+    {
+        date: "March 16, 2026",
+        text: "Established the Task Force to Eliminate Fraud (a very catchy name), which aims to investigate and prosecute or financially penalize federally-funded agencies and organizations that facilitate fraud, waste, or abuse. This will almost assuredly used to target blue states with the goal of eliminating any programs or policies that do not strictly adhere to Trump's agendas.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/03/establishing-the-task-force-to-eliminate-fraud/"
+    },
+    {
+        date: "March 20, 2026",
+        text: "Directed the Secretary of Commerce and the Chairman of the FTC to coordinate with pertinent athletic and broadcasting organizations to ensure that no other college football game is broadcast at the same time as the Army-Navy game, sometimes referred to as \"America's Game\".",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/"
+    },
     // {
     //     date: "",
     //     text: "",
