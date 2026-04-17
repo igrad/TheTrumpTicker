@@ -873,14 +873,15 @@ const offenses = [
     },
     {
         date: "January 14, 2026",
-        text: "Directed the Secretary of Commerce to pursue negotiations, issue new or amended regulations, and suspend existing regulations to \"address the threatened impairment of the national security with respect to imports of [processed critical minerals and their derivative products] PCMDPs from any country.\" The rationale is that such minerals and derivatives are critical elements of innumerable digital components - everything from radios to flight recorders."
+        text: "Directed the Secretary of Commerce to pursue negotiations, issue new or amended regulations, and suspend existing regulations to \"address the threatened impairment of the national security with respect to imports of [processed critical minerals and their derivative products] PCMDPs from any country.\" The rationale is that such minerals and derivatives are critical elements of innumerable digital components - everything from radios to flight recorders.",
         link: "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/"
     },
     {
         date: "January 14, 2026",
-        text: "Imposed an additional 25 percent tariff on semiconductors to the United States (with a number of exceptions with regard to the application of such goods)."
+        text: "Imposed an additional 25 percent tariff on semiconductors to the United States (with a number of exceptions with regard to the application of such goods).",
         link: "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/"
     },
+    {
         date: "January 27, 2026",
         text: "Attempted to blame the state and local governments of Los Angeles, California for the delays and difficulties to rebuild the area, citing \"malaise\" in regulations and regulators.",
         link: "https://www.whitehouse.gov/presidential-actions/2026/01/addressing-state-and-local-failures-to-rebuild-los-angeles-after-wildfire-disasters/"
@@ -954,29 +955,28 @@ const offenses = [
         date: "March 20, 2026",
         text: "Directed the Secretary of Commerce and the Chairman of the FTC to coordinate with pertinent athletic and broadcasting organizations to ensure that no other college football game is broadcast at the same time as the Army-Navy game, sometimes referred to as \"America's Game\".",
         link: "https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/"
-    },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
+    }
 ]
-
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
     // {
     //     date: "",
     //     text: "",
