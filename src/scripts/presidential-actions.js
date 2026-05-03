@@ -955,30 +955,75 @@ const offenses = [
         date: "March 20, 2026",
         text: "Directed the Secretary of Commerce and the Chairman of the FTC to coordinate with pertinent athletic and broadcasting organizations to ensure that no other college football game is broadcast at the same time as the Army-Navy game, sometimes referred to as \"America's Game\".",
         link: "https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/"
+    },
+    {
+        date: "March 26, 2026",
+        text: "Threatened the cancellation of contracts for any federal contracting company who does not wholly cancel DEI practices.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/03/addressing-dei-discrimination-by-federal-contractors/"
+    },
+    {
+        date: "March 31, 2026",
+        text: "Outlined the new framework to only permit documented citizens of the US to vote in federal elections. The federal government will now issue each state a registered voter list based on citizens' documented place of residence no fewer than 60 days before a federal election. Only citizens on that list will be allowed to vote in the corresponding federal election. This fails to make provisions for the hundreds of thousands of Americans who are legal citizens of the US but are denied access to documentation for one of many reasons.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/03/ensuring-citizenship-verification-and-integrity-in-federal-elections/"
+    },
+    {
+        date: "April 2, 2026",
+        text: "Massively hiked up tariffs on aluminum imports, with some exceptions for the UK and some aluminum-derivative products.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/strengthening-actions-taken-to-adjust-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+    },
+    {
+        date: "April 2, 2026",
+        text: "Imposed a 100% tariff (yes, really) on many types of pharmaceuticals.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states/"
+    },
+    {
+        date: "April 3, 2026",
+        text: "After nearly 3 months of shutdown, admitted defeat (indirectly) and directed DHS and OMB secretaries to provide the wrongfully-withheld funds to DHS employees, such as TSA workers.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/liberating-the-department-of-homeland-security-from-the-democrat-caused-shutdown/"
+    },
+    {
+        date: "April 3, 2026",
+        text: "Encouraged federally-funded universities to refrain from extensive over-spending to boost performance of athletics programs, and encouraged congress to create laws to punish overcompensation of student athletes.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/urgent-national-action-to-save-college-sports/"
+    },
+    {
+        date: "April 18, 2026",
+        text: "Blamed the Biden administration for the national suicide rate increasing to its peak in 2022 in the midst of the Covid-19 pandemic.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/accelerating-medical-treatments-for-serious-mental-illness/"
+    },
+    {
+        date: "April 20, 2026",
+        text: "Authorized the expansion of petroleum extraction under the declaration of a national emergency pertaining to oil imports. Odd how some American oil companies have more than doubled their profit margins since the start of the war with Iran, and Trump has a long and detailed history of under-the-table deals to abuse his elected office for personal gain.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-domestic-petroleum-production-refining-and-logistics-capacity/"
+    },
+    {
+        date: "April 20, 2026",
+        text: "Authorized expansions to the production of coal because, shockingly, prices on energy and fuel surged once Trump started a war with Iran and blockaded the Strait of Hormuz for no real reason beside being Netanyahu's whipping boy.",
+        link: "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-coal-supply-chains-and-baseload-power-generation-capacity/"
     }
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
+    // {
+    //     date: "",
+    //     text: "",
+    //     link: ""
+    // },
 ]
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
-    // {
-    //     date: "",
-    //     text: "",
-    //     link: ""
-    // },
